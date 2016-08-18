@@ -1,0 +1,27 @@
+<div class="m-index">
+  <div id="m-container"></div>
+  <footer>
+    <ul>
+      <li class="active">
+        <i class="iconfont">&#xe618;</i>
+        <b>首页</b>
+      </li>
+      <li>
+        <i class="iconfont">&#xe60e;</i>
+        <b>社区</b>
+      </li>
+      <li>
+        <i class="iconfont">&#xe61a;</i>
+        <b></b>
+      </li>
+      <li>
+        <i class="iconfont" style="font-size: 23px; line-height: 24px;">&#xe607;</i>
+        <b>生活</b>
+      </li>
+      <li>
+        <i class="iconfont">&#xe619;</i>
+        <b>我的</b>
+      </li>
+    </ul>
+  </footer>
+</div>
