@@ -6,7 +6,7 @@ SPA.defineView('index', {
 html: indexTpl,
 //
 //// 定义插件
-//plugins: ['delegated'],
+plugins: ['delegated'],
 //
 //// 装载子视图
 //modules: [{
@@ -14,7 +14,13 @@ html: indexTpl,
 //  container: '#m-container',
 //  views: ['home', 'search', 'my'],
 //  defaultTag: 'home'
-//}],
+////}],
+	modules:[{
+		name:'content',
+		container:"#m-container",
+		views:["home","life","mine","com"],
+		defaultTag:"home"
+	}],
 //
 //// 绑定tap事件
 //bindActions: {
