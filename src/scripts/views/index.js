@@ -23,6 +23,12 @@ plugins: ['delegated'],
 	}],
 //
 //// 绑定tap事件
+   bindActions:{
+   	"switch":function(el,data){
+   		this.modules.content.launch(data.name);
+   		$('#index-nav li').eq($(el.el).index()).addClass("active").siblings().removeClass("active");
+   	}
+   }
 //bindActions: {
 //  'switch': function (el, data) {
 //    this.modules.content.launch(data.name);
