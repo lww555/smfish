@@ -1,1 +1,9 @@
-<div>life</div>
+<header>
+    <i class="iconfont">&#xe601;</i>
+    <span class="active">生活</span>
+    <i class="iconfont">&#xe615;</i>
+</header>
+<nav>
+    <span class="active">吃货</span>
+    <span>车友</span>
+</nav>
