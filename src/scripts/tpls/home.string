@@ -9,20 +9,29 @@
 	<div class="scroll">
 		<div class="swiper-container">
 		    <div class="swiper-wrapper">
-		        <div class="swiper-slide"><img src="/smfish/images/homeImg/banner1.jpg" alt="" /></div>
+		        <div class="swiper-slide"  ms-repeat-el="home">
+		        	<img ms-src="el.thumb" alt="" />
+		        	<p ms-text="el.title"></p>
+		        </div>
+		        <!--<div class="swiper-slide"><img src="/smfish/images/homeImg/bannner2.jpg" alt="" /></div>
 		        <div class="swiper-slide"><img src="/smfish/images/homeImg/bannner2.jpg" alt="" /></div>
-		        <div class="swiper-slide"><img src="/smfish/images/homeImg/bannner2.jpg" alt="" /></div>
-		        <div class="swiper-slide"><img src="/smfish/images/homeImg/bannner2.jpg" alt="" /></div>
+		        <div class="swiper-slide"><img src="/smfish/images/homeImg/bannner2.jpg" alt="" /></div>-->
 		    </div>
 		    <!-- 如果需要分页器 -->
 		    <div class="swiper-pagination"></div>
-		    
-		    <!-- 如果需要导航按钮 -->
-		   <!-- <div class="swiper-button-prev"></div>
-		    <div class="swiper-button-next"></div>-->
-		    
-		    <!-- 如果需要滚动条 -->
-		    <!--<div class="swiper-scrollbar"></div>-->
+		   
 		</div>
+		<ul class="mainnav">
+			<li ms-repeat-el="nav">
+				<img ms-src="el.icon"/>
+				<b ms-text="el.title"></b>
+			</li>
+		</ul>
+		<ul class="list">
+			<li ms-repeat-el="list">
+				<h5 ms-text="el.title"></h5>
+				<img ms-src="el.imgs[0].pic" ms-width="el.imgs[0].pic_width" ms-height="el.imgs[0].pic_height"/>
+			</li>
+		</ul>
 	</div>
 </div>

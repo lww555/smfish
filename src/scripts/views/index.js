@@ -9,12 +9,6 @@ html: indexTpl,
 plugins: ['delegated'],
 //
 //// 装载子视图
-//modules: [{
-//  name: 'content',
-//  container: '#m-container',
-//  views: ['home', 'search', 'my'],
-//  defaultTag: 'home'
-////}],
 	modules:[{
 		name:'content',
 		container:"#m-container",
@@ -29,11 +23,4 @@ plugins: ['delegated'],
    		$('#index-nav li').eq($(el.el).index()).addClass("active").siblings().removeClass("active");
    	}
    }
-//bindActions: {
-//  'switch': function (el, data) {
-//    this.modules.content.launch(data.name);
-//    $('#index-nav li').eq($(el.el).index()).addClass('active')
-//      .siblings().removeClass('active');
-//  }
-//}
 });

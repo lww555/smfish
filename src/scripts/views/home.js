@@ -1,18 +1,54 @@
 var homeTpl = require('../tpls/home.string');
+var scroll = require('../utils/scroll.js');
 SPA.defineView("home",{
 	html:homeTpl,
+
+	  plugins: [{
+	    name: 'avalon',
+	    options: function (vm) {
+	      vm.home = [];
+	      vm.nav=[];
+	      vm.list=[];
+	    }
+	  }],
 	// 绑定视图事件
 	bindEvents:{
-		'ready': function (){
+		'show': function (){
+			var vm = this.getVM();
+		    $.ajax({
+		        url: '/api/home.php',
+		        type: 'get',
+		        data: {
+		          type: 'more',
+		          pageNo: 1
+		        },
+		        success: function (res) {
+		          vm.home = res.data.tui;
+		          vm.nav = res.data.icons;
+		          vm.list = res.data.list;
+		        }
+	      	});
+	      	
+		
+		},
+		"ready":function(){
+			var vm = this.getVM();
+				//轮播
 		 	var mySwiper = new Swiper ('.swiper-container', {
-		    direction:'horizontal',
-		    loop: true,
-		    autoplay: 3000,
-		    // 如果需要分页器
-		    pagination:'.swiper-pagination',
-		    paginationClickable: true,
-		    autoplayDisableOnInteraction :false
-		  });  
+			    direction:'horizontal',
+			    loop: true,
+			    autoplay: 3000,
+			    // 如果需要分页器
+			    pagination:'.swiper-pagination',
+			    paginationClickable: true,
+			    autoplayDisableOnInteraction :false
+			}); 
+			// scroll
+//		    scroll({
+//		        scroll: this.widgets.myScroll,
+//		        vm: vm
+//		    });
 		}
+		
 	}
 })

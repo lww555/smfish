@@ -1,11 +1,13 @@
+
 #home{
+    font-size: .15rem;
     header{
         background:#f9f9f9;
         @include flexbox();
         height: .44rem;
         text-align: center;
         line-height: .44rem;
-        @include border(0 0 1px 0,#919191);
+        @include border(0 0 1px 0,$bder-color);
         i{
             width: .44rem;
             font-size: .18rem;
@@ -21,15 +23,52 @@
             }
         }
     }
+    //轮播区
     .scroll{
-        img{
+        .swiper-container{
+            img{
             width: 100%;
+            }
+            P{
+                text-indent: .15rem;
+                font-size: .15rem;
+                color: #fff;
+                position: absolute;
+                bottom: .06rem;
+                @include ellipsis(80%,1);
+            }
+            .swiper-pagination{
+                text-align:right;
+                .swiper-pagination-bullet{
+                    background: #fff;
+                }
+            }
         }
-
-        .swiper-pagination{
-            text-align:right;
-            .swiper-pagination-bullet{
-                background: #fff;
+        //导航
+        .mainnav{
+            @include flexbox();
+            @include border(0 0 1px 0,$bder-color);
+            background: #fff;
+            height: .76rem;
+            
+            width: 100%;
+            li{
+                @include flex();
+                @include flexbox();
+                @include flex-direction(column);
+                @include align-items(center);
+                @include justify-content(center);
+                img{
+                    width:.33rem;
+                }
+                b{
+                    line-height: .30rem;
+                }
+            }
+        }
+        .list{
+            img{
+                width: 100%;
             }
         }
     }
