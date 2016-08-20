@@ -3,7 +3,96 @@
     <span class="active">生活</span>
     <i class="iconfont">&#xe615;</i>
 </header>
-<nav>
+<nav class="life_nav">
     <span class="active">吃货</span>
     <span>车友</span>
 </nav>
+<div class="swiper-container" id="life_swiper">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <div spa-widget="scroll" id="life_scroll">
+                <div><ul class="subNav">
+                    <li>
+                        <div>
+                            <img data-src="" src="/smfish/images/lifeImg/0101.png" alt=""/>
+                            <p>
+                                <span>五折美食</span>
+                                <span>更经济,更实惠,更美味</span>
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <img data-src="" src="/smfish/images/lifeImg/0102.png" alt=""/>
+                            <p>
+                                <span>众筹得宝</span>
+                                <span>一元狂欢</span>
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+                    <section class="zk_lif_eat">
+                        <ul>
+                            <li>
+                                <img src="/smfish/images/lifeImg/p_0ba01310bf3a.jpg" alt=""/>
+                                <p>老聃海沧店</p>
+                                <p class="zk_fo_color">厦门市海沧区星港六里195号(体育运动中心对面)</p>
+                                <span>今日五折</span>
+                            </li>
+                            <li>
+                                <img src="http://shequ.b0.upaiyun.com/20160201/p_1e8ef074c8c0.jpg" alt=""/>
+                                <p>戈麦司泰和花园店</p>
+                                <p class="zk_fo_color">厦门市吕岭路泰和花园185号之16C3店面（彩虹花园对面)</p>
+                                <span>今日五折</span>
+                            </li>
+                            <li>
+                                <img src="http://shequ.b0.upaiyun.com/20160201/p_1e8ef074c8c0.jpg" alt=""/>
+                                <p>戈麦司泰和花园店</p>
+                                <p class="zk_fo_color">厦门市吕岭路泰和花园185号之16C3店面（彩虹花园对面)</p>
+                                <span>今日五折</span>
+                            </li>
+                            <li>
+                                <img src="http://shequ.b0.upaiyun.com/20160201/p_1e8ef074c8c0.jpg" alt=""/>
+                                <p>戈麦司泰和花园店</p>
+                                <p class="zk_fo_color">厦门市吕岭路泰和花园185号之16C3店面（彩虹花园对面)</p>
+                                <span>今日五折</span>
+                            </li>
+                        </ul>
+                    </section></div>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <ul class="subNav">
+                <li>
+                    <div>
+                        <img data-src="" src="/smfish/images/lifeImg/0201.png" alt=""/>
+                        <p>
+                            <span>车主认证</span>
+                            <span>做会员更优惠</span>
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <img data-src="" src="/smfish/images/lifeImg/0202.png" alt=""/>
+                        <p>
+                            <span>上门养车</span>
+                            <span>省时•省心•省钱</span>
+                        </p>
+                    </div>
+                </li>
+            </ul>
+            <section class="zk_lif_eat">
+                <div>
+                    <ul>
+                        <li>
+                            <img src="/smfish/images/lifeImg/car1.jpg" alt=""/>
+                            <p>小鱼汽车|给爱车估值 免费领100元油卡</p>
+                            <span>今日五折</span>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </div>
+</div>

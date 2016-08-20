@@ -6,6 +6,7 @@
     #m-container{
         @include flex();
         width: 100%;
+        position: relative;
     }
     footer{
         height:50px;
