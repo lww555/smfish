@@ -7,3 +7,4 @@ require('./views/home.js');
 require('./views/com.js');
 require('./views/life.js');
 require('./views/mine.js');
+require('./views/login.js');
