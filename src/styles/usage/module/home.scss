@@ -1,13 +1,17 @@
 
 #home{
+    @include flexbox();
+    @include flex-direction(column);
     font-size: .15rem;
     header{
+        @include border(0 0 1px 0,$bder-color);
         background:#f9f9f9;
         @include flexbox();
         height: .44rem;
         text-align: center;
         line-height: .44rem;
-        @include border(0 0 1px 0,$bder-color);
+        flex-shrink:0;
+//      @include flex-shrink(0);
         i{
             width: .44rem;
             font-size: .18rem;
@@ -23,8 +27,9 @@
             }
         }
     }
-    //轮播区
+    
     .scroll{
+        //轮播区
         .swiper-container{
             img{
             width: 100%;

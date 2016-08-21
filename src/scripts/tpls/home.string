@@ -1,37 +1,39 @@
 <div id="home">
 	<header>
 		<i class="iconfont">&#xe614;</i>
-		<b>厦门市</b>
+		<b>厦门</b>
 		<span><img src="/smfish/images/homeImg/top_logo.png"></span>
 		<i class="iconfont">&#xe60a;</i>
 		<i class="iconfont">&#xe60c;</i>
 	</header>
-	<div class="scroll">
-		<div class="swiper-container">
-		    <div class="swiper-wrapper">
-		        <div class="swiper-slide"  ms-repeat-el="home">
-		        	<img ms-src="el.thumb" alt="" />
-		        	<p ms-text="el.title"></p>
-		        </div>
-		        <!--<div class="swiper-slide"><img src="/smfish/images/homeImg/bannner2.jpg" alt="" /></div>
-		        <div class="swiper-slide"><img src="/smfish/images/homeImg/bannner2.jpg" alt="" /></div>
-		        <div class="swiper-slide"><img src="/smfish/images/homeImg/bannner2.jpg" alt="" /></div>-->
-		    </div>
-		    <!-- 如果需要分页器 -->
-		    <div class="swiper-pagination"></div>
-		   
+	<div spa-widget="scroll" >
+		<div class="scroll" >
+			<div class="swiper-container">
+			    <div class="swiper-wrapper">
+			        <div class="swiper-slide"  ms-repeat-el="home">
+			        	<img ms-src="el.thumb" alt="" />
+			        	<p ms-text="el.title"></p>
+			        </div>
+			        <!--<div class="swiper-slide"><img src="/smfish/images/homeImg/bannner2.jpg" alt="" /></div>
+			        <div class="swiper-slide"><img src="/smfish/images/homeImg/bannner2.jpg" alt="" /></div>
+			        <div class="swiper-slide"><img src="/smfish/images/homeImg/bannner2.jpg" alt="" /></div>-->
+			    </div>
+			    <!-- 如果需要分页器 -->
+			    <div class="swiper-pagination"></div>
+			   
+			</div>
+			<ul class="mainnav">
+				<li ms-repeat-el="nav">
+					<img ms-src="el.icon"/>
+					<b ms-text="el.title"></b>
+				</li>
+			</ul>
+			<ul class="list">
+				<li ms-repeat-el="list" >
+					<h5 ms-text="el.title"></h5>
+					<img ms-src="el.imgs[0].pic" ms-if="el.show_type==1"/>
+				</li>
+			</ul>
 		</div>
-		<ul class="mainnav">
-			<li ms-repeat-el="nav">
-				<img ms-src="el.icon"/>
-				<b ms-text="el.title"></b>
-			</li>
-		</ul>
-		<ul class="list">
-			<li ms-repeat-el="list">
-				<h5 ms-text="el.title"></h5>
-				<img ms-src="el.imgs[0].pic" ms-width="el.imgs[0].pic_width" ms-height="el.imgs[0].pic_height"/>
-			</li>
-		</ul>
 	</div>
 </div>
