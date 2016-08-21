@@ -1,0 +1,107 @@
+body,html{
+    height:100%;
+    width:100%;
+}
+header{
+    height:.44rem;
+    width:100%;
+    @include flexbox();
+    @include align-items(center);
+    @include justify-content(space-between);
+    background:#f9f9f9;
+    border-bottom:1px solid #d5d5d5;
+    h2{
+        height:100%;
+        text-align: center;
+        line-height:.44rem;
+        font-size:.16rem ;
+    }
+    span{
+        height:100%;
+        line-height:.44rem;
+        display: block;
+        margin-right:.2rem;
+        color:#828282;
+    }
+}
+.h-log{
+    height:.92rem;
+    width:100%;
+    background:#fff;
+     @include flexbox();
+    @include align-items(center);
+    img{
+        display: block;
+        height:62%;
+         margin:0 .15rem;
+    };
+    span{
+       @include flex();
+       color:#8e8e8e;
+        display: block;
+        font-size: .16rem;
+    }
+    i{
+        color:#c6c6c6;
+        display: block;
+        height:.12rem;
+        line-height:.12rem;
+        margin-right:.15rem;
+    }
+}
+.h_nav{
+    margin:.10rem 0;
+    height:.71rem;
+    width:100%;
+    ul{
+        background:#fff;
+        height: 100%;
+        @include flexbox();
+       
+        li{
+            text-align: center;
+            color:#919191;
+            @include flexbox();
+            @include flex-direction(column);
+             @include flex();
+            @include justify-content(center);
+            color:#333;
+            font-size: .12rem;
+//              position: relative;
+        }
+    }
+     
+    
+}
+section{
+    width:100%;
+    background:#fff;
+    ul{
+        @include flexbox();
+        @include flex-direction(column);
+        li{
+             @include flexbox();
+             @include align-items(center);
+             height:.50rem;
+             border-bottom:1px solid #e4e4e4;
+             width:95%;
+             margin:0 auto;
+             font-size: .14rem;
+             i{
+                 display: block;
+                 width:.15rem;
+                 margin-right:.15rem;
+             };
+             p{
+                  @include flex();
+             }
+             span{
+                 color:#c6c6c6;
+                display: block;
+                height:.12rem;
+                line-height:.12rem;
+               
+             }
+        }
+    }
+}
