@@ -14,14 +14,22 @@ SPA.defineView("life",{
 		"show":function(){
 			var vm = this.getVM();
 			$.ajax({
-				url:"/smfish/mock/life_json/eat.json",
+				url:'/api/livelist.php',
+				data:{
+					type:'eat',
+					pageNo:'1'
+				},
 				success:function(msg){
 					vm.navlist=msg.data.icons;
 					vm.lifecontainer=msg.data.life;
 				}
 			})
 			$.ajax({
-				url:"/smfish/mock/life_json/car.json",
+				url:'/api/livelist.php',
+				data:{
+					type:'car',
+					pageNo:'1'
+				},
 				success:function(msg){
 					vm.car_navlist=msg.data.icons;
 					vm.car_container=msg.data.life;

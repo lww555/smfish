@@ -14,7 +14,11 @@ module.exports = {
     },
     {
       pattern: /\/api\/livelist\.php\?type=eat\&pageNo=1/,
-      respondwith: './life_json/eat.josn'
+      respondwith: './life_json/eat.json'
+    },
+    {
+      pattern: /\/api\/livelist\.php\?type=car\&pageNo=1/,
+      respondwith: './life_json/car.json'
     }
   ]
 };
