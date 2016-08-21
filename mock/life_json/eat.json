@@ -1,0 +1,80 @@
+{
+    "errCode": "0",
+    "data": {
+        "title": "吃货",
+        "icons": [
+            {
+                "tab_id": "3",
+                "sort_num": "1",
+                "icon": "http://uyu.xmfish.com/thumb/mo/2016_06/cfb0a1ac37644f5105a4e8f40625ff07.png",
+                "url": "http://m.wlian.com/card?wz",
+                "title": "五折美食",
+                "descrip": "更经济更实惠"
+            },
+            {
+                "tab_id": "3",
+                "sort_num": "2",
+                "icon": "http://uyu.xmfish.com/thumb/mo/2016_08/c9c531887fe11ddea25f0adf90b80b92.png",
+                "url": "http://m.haodiantong.cn/xyoauth/yyg?bizid=27",
+                "title": "众筹夺宝",
+                "descrip": "一元狂欢"
+            }
+        ],
+        "life": [
+            {
+                "id": 1447,
+                "url": "http://m.wlian.com/card?entity&id=1447",
+                "img": "http://shequ.b0.upaiyun.com/20160201/p_1e8ef074c8c0.jpg",
+                "title": "戈麦司泰和花园店",
+                "label": "今日五折",
+                "label_color": 1,
+                "area": "厦门市吕岭路泰和花园185号之16C3店面（彩虹花园对面）"
+            },
+            {
+                "id": 1597,
+                "url": "http://m.wlian.com/card?entity&id=1597",
+                "img": "http://shequ.b0.upaiyun.com/20160517/p_e7fb22a41c10.jpg",
+                "title": "咖啡公园（湖明店）",
+                "label": "今日五折",
+                "label_color": 1,
+                "area": "厦门市思明区湖明路136号"
+            },
+            {
+                "id": 1456,
+                "url": "http://m.wlian.com/card?entity&id=1456",
+                "img": "http://shequ.b0.upaiyun.com/20160223/p_02a181eada06.jpg",
+                "title": "小爷酸汤鱼",
+                "label": "今日五折",
+                "label_color": 1,
+                "area": " 厦门市思明区后埭溪路22号 "
+            },
+            {
+                "id": 81,
+                "url": "http://m.wlian.com/card?entity&id=81",
+                "img": "http://shequ.b0.upaiyun.com/20140529/p_6771eeb2e6e1.jpg",
+                "title": "厦门海景千禧大酒店 ",
+                "label": "今日五折",
+                "label_color": 1,
+                "area": "镇海路12号之8 "
+            },
+            {
+                "id": 1478,
+                "url": "http://m.wlian.com/card?entity&id=1478",
+                "img": "http://shequ.b0.upaiyun.com/20160120/p_0ba01310bf3a.jpg",
+                "title": "天杰福海鲜（大学路店）",
+                "label": "今日五折",
+                "label_color": 1,
+                "area": "厦门市思明区大学路179号恒达大厦旁边"
+            },
+            {
+                "id": 45,
+                "url": "http://m.wlian.com/card?entity&id=45",
+                "img": "http://shequ.b0.upaiyun.com/20140813/p_726464322299.jpg",
+                "title": "香辣会（世茂双子星店）",
+                "label": "今日五折",
+                "label_color": 1,
+                "area": "厦门市思明区大学路188号世茂双子星大厦三楼319号"
+            }
+        ]
+    }
+}
