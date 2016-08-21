@@ -52,7 +52,7 @@ nav{
   position: relative;
   @include flex();
   .swiper-wrapper{
-      #life_scroll{
+    #life_scroll2,#life_scroll{
         width: 100%;
         height: 84.5vh;
       }
