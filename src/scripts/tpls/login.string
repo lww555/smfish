@@ -1,5 +1,7 @@
-<header>
-	<i class="iconfont">&#xe604;</i>
-	<h2>登录</h2>
-	<span>取消</span>
-</header>
+<div id="hyp_login">
+	<header>
+		<i class="iconfont">&#xe604;</i>
+		<h2>登录</h2>
+		<span>取消</span>
+	</header>
+</div>
