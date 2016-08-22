@@ -13,6 +13,7 @@
         ul{
             background:#fff;
             height: 100%;
+            width: 100%;
             @include flexbox();
             @include border(1px 0 0 0, #919191);
             li{

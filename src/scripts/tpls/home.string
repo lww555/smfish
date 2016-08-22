@@ -30,8 +30,28 @@
 			</ul>
 			<ul class="list">
 				<li ms-repeat-el="list" >
-					<h5 ms-text="el.title"></h5>
-					<img ms-src="el.imgs[0].pic" ms-if="el.show_type==1"/>
+					<div ms-if="el.show_type!=1&&el.show_type!=3" class="type2">
+						<h5 ms-text="el.title"></h5>
+						<img ms-src="el.imgs[0].pic"/>
+						<p>3天前</p>
+					</div>
+					<div ms-if="el.show_type!=2&&el.show_type!=3" class="type1">
+						<h5 ms-text="el.title"></h5>
+						<img ms-src="el.imgs[0].pic" />
+					</div>
+					<div ms-if="el.show_type!=2&&el.show_type!=1" class="type3">
+						<h5 ms-text="el.title"></h5>
+						<div class="imgbox">
+							<img ms-src="el.imgs[0].pic" />
+							<div style="width：5px"></div>
+							<img ms-src="el.imgs[1].pic" />
+							<div style="width：5px"></div>
+							<img ms-src="el.imgs[2].pic" />
+						</div>
+						<p>3天前</p>
+					</div>
+					<!--<h5 ms-text="el.title" ms-if="el.show_type!=2" class=""></h5>
+					<img ms-src="el.imgs[0].pic" ms-if="el.show_type!=1"/>-->
 				</li>
 			</ul>
 		</div>

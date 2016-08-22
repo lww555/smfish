@@ -49,15 +49,13 @@
 			<li>
 				<i class="iconfont">&#xe616;</i>
 				<p>订单</p>
-				<span class="iconfont">&#xe606;</span> 
+				<span class="iconfont">&#xe606;</span>
 			</li>
 			<li>
 				<i class="iconfont">&#xe600;</i>
 				<p>设置</p>
-				<span class="iconfont">&#xe606;</span> 
+				<span class="iconfont">&#xe606;</span>
 			</li>
 		</ul>
 	</section>
-
-	
 </div>
