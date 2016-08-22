@@ -1,4 +1,5 @@
-<header>
+<div id="life_container">
+	<header>
     <i class="iconfont">&#xe601;</i>
     <span class="active">生活</span>
     <i class="iconfont">&#xe615;</i>
@@ -76,4 +77,5 @@
             </div>
         </div>
     </div>
+</div>
 </div>
