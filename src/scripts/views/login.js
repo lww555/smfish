@@ -1,4 +1,4 @@
 var loginTpl = require('../tpls/login.string');
-SPA.defineView("mine",{
+SPA.defineView("login",{
 	html:loginTpl
 })

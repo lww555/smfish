@@ -3,3 +3,23 @@
 	<h2>登录</h2>
 	<span>取消</span>
 </header>
+<form>
+	<div class="h_inp">
+		账户:<input type="text" value="手机号/用户名"/>
+	</div>
+	<div>
+		密码:<input type="tel" value="请输入密码"/>
+	</div>
+</form>
+<div class="forget">
+	<p>忘记密码？</p>
+</div>
+<div class="denglu">
+	<input type="button" value="登录"/>
+</div>
+<footer>
+    <i></i>
+    <p>还没有账户？</p>
+    <b>立即注册</b>
+    <i></i>
+</footer>

@@ -1,4 +1,67 @@
 header{
     height:.44rem;
     width:100%;
+     border-bottom:1px solid #eee; 
+}
+form{
+    width:100%;
+    background:#fff;
+    .h_inp{
+        border-bottom:1px solid #eee; 
+    }
+    div{
+        width:90%;
+       
+        margin:0 auto;
+        input{
+        width:60%;
+        height:.44rem; 
+        border:none;
+        line-height:.44rem ;
+        padding-left:.10rem;
+        color:#eee;
+    }
+    }
+    
+}
+.forget{
+    height:.88rem;
+    @include flexbox();
+    @include flex-direction(column);
+    @include align-items(flex-end);
+    p{
+        margin:.10rem .10rem auto auto;
+        color:#919191;
+        font-size:.12rem;
+    }
+}
+.denglu{
+    width:90%;
+    height:.40rem;
+    margin:0 auto;
+    input{
+        height:100%;
+        width:100%;
+        border:none;
+        border-radius:10px;
+        background:$base-color;
+        color:#fff;
+        text-align: center;
+        font-size:.16rem;
+    }
+}
+footer{
+    width:90%;
+    height:.40rem;
+    margin:0 auto;
+    @include flexbox();
+//  @include flex-direction(column);
+    @include align-items(center);
+    
+    i{
+        display: block;
+        width:25%;
+        height:.01rem;
+        background:#eee;
+    }
 }
