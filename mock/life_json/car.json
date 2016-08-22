@@ -1,0 +1,123 @@
+{
+  "errCode": "0",
+  "data": {
+    "title": "车友",
+    "icons": [
+      {
+        "tab_id": "6",
+        "sort_num": "1",
+        "icon": "http://uyu.xmfish.com/thumb/mo/2016_08/f00e83c90654f63ed60993d97c182e5b.png",
+        "url": "http://m.ppche.com/user/certification?utm_source=xmfish_app",
+        "title": "车主认证",
+        "descrip": "做会员更优惠"
+      },
+      {
+        "tab_id": "6",
+        "sort_num": "2",
+        "icon": "http://uyu.xmfish.com/thumb/mo/2016_08/aaea5cacf074fa122ba3e336c37662c8.png",
+        "url": "http://m.ppche.com/index?utm_source=xmfish_app",
+        "title": "上门养车",
+        "descrip": "省时·省心·省钱"
+      }
+    ],
+    "life": [
+      {
+        "id": "80",
+        "url": "http://www.xiaoyu.com/enrollm?app_id=2035",
+        "img": "http://uyu.xmfish.com/thumb/mo/2016_08/8bba611dfb2fc62255ed8fe642711c2d.jpg",
+        "title": "小鱼汽车丨给爱车估值 免费领100元油卡",
+        "type": "0",
+        "label_color": "1"
+      },
+      {
+        "id": "66",
+        "url": "http://m.ppche.com/wash?utm_source=xmfish_app",
+        "img": "http://uyu.xmfish.com/thumb/mo/2016_08/aec1aeaac9f2726804564ed35439b284.png",
+        "title": " 小鱼理车 | 全城一键洗车更轻松！",
+        "area": "厦门",
+        "type": "0",
+        "label_color": "1"
+      },
+      {
+        "id": "64",
+        "url": "http://m.ppche.com/certification/logo?utm_source=xmfish_app",
+        "img": "http://uyu.xmfish.com/thumb/mo/2016_08/2fe5d8b978e9d67cd6a7af5a3f822ae9.png",
+        "title": "服务升级 | 小鱼车标线下领取啦~",
+        "area": "厦门",
+        "type": "0",
+        "label_color": "1"
+      },
+      {
+        "id": "62",
+        "url": "http://m.ppche.com/active/liche?utm_source=xmfish_app",
+        "img": "http://uyu.xmfish.com/thumb/mo/2016_08/ddd34655483cd0c62f6f08877f3329d0.png",
+        "title": "理车保 | 499起做全年汽车保养",
+        "address": "厦门",
+        "type": "0",
+        "label_color": "1"
+      },
+      {
+        "id": "60",
+        "url": "http://form.mikecrm.com/0W9PMj",
+        "img": "http://uyu.xmfish.com/thumb/mo/2016_08/4c12bb0acef2e5ce9de3368edffb3823.png",
+        "title": "车险福利 | 划痕保重磅来袭，不惧刮擦",
+        "area": "厦门",
+        "type": "0",
+        "label_color": "1"
+      },
+      {
+        "id": "58",
+        "url": "http://m.ppche.com/active/ganen?utm_source=xmfish_app",
+        "img": "http://uyu.xmfish.com/thumb/mo/2016_08/e15b1f97abc60d8317a86e45b863fa83.png",
+        "title": "小鱼理车卡 | 感恩发售，让您养车无忧",
+        "area": "厦门",
+        "type": "0",
+        "label_color": "1"
+      },
+      {
+        "id": "53",
+        "url": "http://m.wlian.com/card?entity&id=1638",
+        "img": "http://uyu.xmfish.com/thumb/mo/2016_08/286c3d26b3d4e11ce428a4dfd6112575.png",
+        "title": "汽车精洗，彻底清洁，还原爱车本色！",
+        "type": "0",
+        "price": "68",
+        "label_color": "1"
+      },
+      {
+        "id": "52",
+        "url": "http://m.wlian.com/card?entity&id=1639",
+        "img": "http://uyu.xmfish.com/thumb/mo/2016_08/0e26abc9dd000f90f47e3eaaff0a20ef.png",
+        "title": "汽车抛光打蜡，让您的爱车焕然一新！",
+        "type": "0",
+        "price": "320",
+        "label_color": "1"
+      },
+      {
+        "id": "49",
+        "url": "http://m.ppche.com/coupon/package?buy&id=172",
+        "img": "http://uyu.xmfish.com/thumb/mo/2016_08/d88df5dbb4b3079409045e21c18c21c5.jpg",
+        "title": "壳牌机油上门保养限时特惠",
+        "type": "0",
+        "label_color": "1"
+      },
+      {
+        "id": "24",
+        "url": "http://bobing.xmfish.com/iwx/chl/zjy/item/8#mp.weixin.qq.com",
+        "img": "http://uyu.xmfish.com/thumb/mo/2016_05/cc4cd395bdff0ebd890a6d24817b95a9.jpg",
+        "title": "新疆11日精品自驾游已上线，火热招募中！",
+        "type": "0",
+        "label": "预付定金99元",
+        "label_color": "1"
+      },
+      {
+        "id": "23",
+        "url": "http://bobing.xmfish.com/iwx/chl/zjy/item/11#mp.weixin.qq.com",
+        "img": "http://uyu.xmfish.com/thumb/mo/2016_05/e1884e2cc70a2f01123caf47484d2fe5.jpg",
+        "title": "自驾台湾，不一样的速度，不一样的精彩！",
+        "type": "0",
+        "label": "预付定金80元",
+        "label_color": "1"
+      }
+    ]
+  }
+}

@@ -1,7 +1,20 @@
-header{
+.h_deng{
     height:.44rem;
     width:100%;
-     border-bottom:1px solid #eee; 
+    border-bottom:1px solid #eee; 
+    @include flexbox();
+    @include justify-content(center);
+    i{
+       display: block;
+       height:.44rem;
+    }
+    h2{
+       height:.44rem;  
+    }
+    span{
+       display: block; 
+        height:.44rem;
+    }
 }
 form{
     width:100%;
@@ -62,6 +75,23 @@ footer{
         display: block;
         width:25%;
         height:.01rem;
-        background:#eee;
+        background:#e6e6e6;
+    }
+    b{
+        color:$base-color;
     }
 }
+//.foot{
+//  height:.44rem;
+// 
+// margin-top:.25rem;
+// width:100%;
+// img{
+//     height:.44rem;
+//     width:.44rem;
+//     border-radius:50%;
+//     color: $base-color;
+//     margin:0 auto;
+//     display: block;
+// }
+//}

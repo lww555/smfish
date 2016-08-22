@@ -1,4 +1,4 @@
-<header>
+<header class="h_deng">
 	<i class="iconfont">&#xe604;</i>
 	<h2>登录</h2>
 	<span>取消</span>
@@ -23,3 +23,6 @@
     <b>立即注册</b>
     <i></i>
 </footer>
+<!--<div class="foot">
+	<img src="/smfish/images/link.jpg"/>
+</div>-->
