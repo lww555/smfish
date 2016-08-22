@@ -1,59 +1,60 @@
-#life_container{
-    header{
-  width:100%;
-  height: .44rem;
-  @include flexbox();
-  @include border(0 0 1px 0, #d9d9d9);
-  -webkit-flex-shrink:0;
-  -ms-flex-negative:0;
-  flex-shrink:0;
-  i{
-    width: .44rem;
-    height: 100%;
-    text-align: center;
-    line-height: .44rem;
-    font-size: .22rem;
-    color: rgba(21, 21, 21, 0.8);
+#zk_life{
+  header{
+    width:100%;
+    height: .44rem;
+    @include flexbox();
+    @include border(0 0 1px 0, #d9d9d9);
+    -webkit-flex-shrink:0;
+    -ms-flex-negative:0;
+    flex-shrink:0;
+    i{
+      width: .44rem;
+      height: 100%;
+      text-align: center;
+      line-height: .44rem;
+      font-size: .22rem;
+      color: rgba(21, 21, 21, 0.8);
+    }
+    span{
+      height: 100%;
+      @include flex();
+      text-align: center;
+      line-height: .44rem;
+      font-size: .18rem;
+      color: rgba(21, 21, 21, 0.8);
+      display: block;
+    }
+>>>>>>> master
   }
-  span{
-    height: 100%;
-    @include flex();
-    text-align: center;
-    line-height: .44rem;
-    font-size: .18rem;
-    color: rgba(21, 21, 21, 0.8);
-    display: block;
-  }
-}
-nav{
-  width: 100%;
-  height: .44rem;
-  @include flexbox();
-  @include justify-content(space-around);
-  background:#FFF;
-  -webkit-flex-shrink:0;
-  -ms-flex-negative:0;
-  flex-shrink:0;
-  span{
-    display: block;
-    width: 50%;
-    margin: 0 5%;
-    text-align: center;
-    line-height: .44rem;
-    border-bottom: 1px solid #fff;
-    &.active{
-      color: $base-color;
-      font-weight: bolder;
-      border-color: $base-color;
+  nav{
+    width: 100%;
+    height: .44rem;
+    @include flexbox();
+    @include justify-content(space-around);
+    background:#FFF;
+    -webkit-flex-shrink:0;
+    -ms-flex-negative:0;
+    flex-shrink:0;
+    span{
+      display: block;
+      width: 50%;
+      margin: 0 5%;
+      text-align: center;
+      line-height: .44rem;
+      border-bottom: 1px solid #fff;
+      &.active{
+        color: $base-color;
+        font-weight: bolder;
+        border-color: $base-color;
+      }
     }
   }
-}
-.swiper-container{
-  width: 100%!important;
-  position: relative;
-  @include flex();
-  .swiper-wrapper{
-    #life_scroll2,#life_scroll{
+  .swiper-container{
+    width: 100%!important;
+    position: relative;
+    @include flex();
+    .swiper-wrapper{
+      #life_scroll2,#life_scroll{
         width: 100%;
         height: 84.5vh;
       }
@@ -149,5 +150,9 @@ nav{
     }
   }
 
+<<<<<<< HEAD
 }
     
+=======
+}
+>>>>>>> master

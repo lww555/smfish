@@ -26,28 +26,21 @@ SPA.defineView("home",{
 		          vm.home = res.data.tui;
 		          vm.nav = res.data.icons;
 		          vm.list = res.data.list;
+
+//				//轮播
+				 	var mySwiper = new Swiper ('.swiper-container', {
+					    direction:'horizontal',
+					    loop: true,
+					    autoplay: 3000,
+					    // 如果需要分页器
+					    pagination:'.swiper-pagination',
+					    paginationClickable: true,
+					    autoplayDisableOnInteraction :false
+					}); 
 		        }
 	      	});
 	      	
 		
-		},
-		"ready":function(){
-			var vm = this.getVM();
-				//轮播
-		 	var mySwiper = new Swiper ('.swiper-container', {
-			    direction:'horizontal',
-			    loop: true,
-			    autoplay: 3000,
-			    // 如果需要分页器
-			    pagination:'.swiper-pagination',
-			    paginationClickable: true,
-			    autoplayDisableOnInteraction :false
-			}); 
-			// scroll
-//		    scroll({
-//		        scroll: this.widgets.myScroll,
-//		        vm: vm
-//		    });
 		}
 		
 	}

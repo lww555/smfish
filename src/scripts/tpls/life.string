@@ -1,48 +1,20 @@
-<div id="life_container">
-	<header>
-    <i class="iconfont">&#xe601;</i>
-    <span class="active">生活</span>
-    <i class="iconfont">&#xe615;</i>
-</header>
-<nav class="life_nav">
-    <span class="active">吃货</span>
-    <span>车友</span>
-</nav>
-<div class="swiper-container" id="life_swiper">
-    <div class="swiper-wrapper">
-        <div class="swiper-slide">
-            <div spa-widget="scroll" id="life_scroll">
-                <div>
-                    <ul class="subNav">
-                    <li ms-repeat-el="navlist">
-                        <div>
-                            <img ms-src="el.icon" alt=""/>
-                            <p>
-                                <span ms-text="el.title"></span>
-                                <span ms-text="el.descrip"></span>
-                            </p>
-                        </div>
-                    </li>
-                </ul>
-                    <section class="zk_lif_eat">
-                        <ul>
-                            <li ms-repeat-el="lifecontainer">
-                                <img ms-src="el.img" alt=""/>
-                                <p ms-text="el.title"></p>
-                                <p class="zk_fo_color" ms-text="el.area"></p>
-                                <span ms-text="el.label"></span>
-                            </li>
-                        </ul>
-                    </section>
-                </div>
-            </div>
-        </div>
-        <div class="swiper-slide">
+<div id="zk_life">
+    <header>
+        <i class="iconfont">&#xe601;</i>
+        <span class="active">生活</span>
+        <i class="iconfont">&#xe615;</i>
+    </header>
+    <nav class="life_nav">
+        <span class="active">吃货</span>
+        <span>车友</span>
+    </nav>
+    <div class="swiper-container" id="life_swiper">
+        <div class="swiper-wrapper">
             <div class="swiper-slide">
-                <div spa-widget="scroll" id="life_scroll2">
+                <div spa-widget="scroll" id="life_scroll">
                     <div>
                         <ul class="subNav">
-                            <li ms-repeat-el="car_navlist">
+                            <li ms-repeat-el="navlist">
                                 <div>
                                     <img ms-src="el.icon" alt=""/>
                                     <p>
@@ -51,27 +23,47 @@
                                     </p>
                                 </div>
                             </li>
-                           <!-- <li>
-                                <div>
-                                    <img data-src="" src="/smfish/images/lifeImg/0202.png" alt=""/>
-                                    <p>
-                                        <span>上门养车</span>
-                                        <span>省时•省心•省钱</span>
-                                    </p>
-                                </div>
-                            </li>-->
                         </ul>
                         <section class="zk_lif_eat">
-                            <div>
-                                <ul>
-                                    <li  ms-repeat-el="car_container">
-                                        <img ms-src="el.img" alt=""/>
-                                        <p ms-text="el.title"></p>
-                                        <p class="zk_fo_color" ms-text="el.area"></p>
-                                    </li>
-                                </ul>
-                            </div>
+                            <ul>
+                                <li ms-repeat-el="lifecontainer">
+                                    <img ms-src="el.img" alt=""/>
+                                    <p ms-text="el.title"></p>
+                                    <p class="zk_fo_color" ms-text="el.area"></p>
+                                    <span ms-text="el.label"></span>
+                                </li>
+                            </ul>
                         </section>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="swiper-slide">
+                    <div spa-widget="scroll" id="life_scroll2">
+                        <div>
+                            <ul class="subNav">
+                                <li ms-repeat-el="car_navlist">
+                                    <div>
+                                        <img ms-src="el.icon" alt=""/>
+                                        <p>
+                                            <span ms-text="el.title"></span>
+                                            <span ms-text="el.descrip"></span>
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <section class="zk_lif_eat">
+                                <div>
+                                    <ul>
+                                        <li  ms-repeat-el="car_container">
+                                            <img ms-src="el.img" alt=""/>
+                                            <p ms-text="el.title"></p>
+                                            <p class="zk_fo_color" ms-text="el.area"></p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </section>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -1,59 +1,62 @@
-<header>
-	<span class="iconfont"></span>
-	<h2>我的</h2>
-	<span class="iconfont">&#xe613;</span>
-</header>
-<div class="h-log">
-	<img src="./images/h_1.jpg"/>
-	<span>暂无信息，请登录！</span>
-	<i class="iconfont">&#xe606;</i>
+<div id="hyp_mine">
+	<header>
+		<span class="iconfont"></span>
+		<h2>我的</h2>
+		<span class="iconfont">&#xe613;</span>
+	</header>
+	<div class="h-log">
+		<img src="./images/h_1.jpg"/>
+		<span>暂无信息，请登录！</span>
+		<i class="iconfont">&#xe606;</i>
+	</div>
+	<nav class="h_nav">
+		<ul>
+			<li>
+				<i class="iconfont">&#xe616;</i>
+				<p>帖子</p>
+			</li>
+			<li>
+				<i class="iconfont">&#xe603;</i>
+				<p>收藏</p>
+			</li>
+			<li>
+				<i class="iconfont">&#xe60b;</i>
+				<p>卡券</p>
+			</li>
+			<li>
+				<i class="iconfont">&#xe612;</i>
+				<p>等级</p>
+			</li>
+		</ul>
+	</nav>
+	<section>
+		<ul>
+			<li>
+				<i class="iconfont">&#xe618;</i>
+				<p>主页</p>
+				<span class="iconfont">&#xe606;</span>
+			</li>
+			<li>
+				<i class="iconfont">&#xe610;</i>
+				<p>好友</p>
+				<span class="iconfont">&#xe606;</span>
+			</li>
+			<li>
+				<i class="iconfont">&#xe615;</i>
+				<p>小鱼卡</p>
+				<span class="iconfont">&#xe606;</span>
+			</li>
+			<li>
+				<i class="iconfont">&#xe616;</i>
+				<p>订单</p>
+				<span class="iconfont">&#xe606;</span>
+			</li>
+			<li>
+				<i class="iconfont">&#xe600;</i>
+				<p>设置</p>
+				<span class="iconfont">&#xe606;</span>
+			</li>
+		</ul>
+	</section>
+
 </div>
-<nav class="h_nav">
-	<ul>
-		<li>
-			<i class="iconfont">&#xe616;</i>
-			<p>帖子</p>
-		</li>
-		<li>
-			<i class="iconfont">&#xe603;</i>
-			<p>收藏</p>
-		</li>
-		<li>
-			<i class="iconfont">&#xe60b;</i>
-			<p>卡券</p>
-		</li>
-		<li>
-			<i class="iconfont">&#xe612;</i>
-			<p>等级</p>
-		</li>
-	</ul>
-</nav>
-<section>
-	<ul>
-		<li>
-			<i class="iconfont">&#xe618;</i>
-			<p>主页</p>
-			<span class="iconfont">&#xe606;</span>
-		</li>
-		<li>
-			<i class="iconfont">&#xe610;</i>
-			<p>好友</p>
-			<span class="iconfont">&#xe606;</span>
-		</li>
-		<li>
-			<i class="iconfont">&#xe615;</i>
-			<p>小鱼卡</p>
-			<span class="iconfont">&#xe606;</span>
-		</li>
-		<li>
-			<i class="iconfont">&#xe616;</i>
-			<p>订单</p>
-			<span class="iconfont">&#xe606;</span> 
-		</li>
-		<li>
-			<i class="iconfont">&#xe600;</i>
-			<p>设置</p>
-			<span class="iconfont">&#xe606;</span> 
-		</li>
-	</ul>
-</section>
