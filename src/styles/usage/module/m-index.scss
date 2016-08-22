@@ -5,8 +5,9 @@
     @include flex-direction(column);
     #m-container{
         @include flex();
-        width: 100%;       
-    }
+        width: 100%;
+        position: relative;
+
     footer{
         height:50px;
         ul{
@@ -41,8 +42,8 @@
                     width: .56rem;
                     top:-0.13rem;
                     left:50%;
-                     @include transform(translate(-50%, 0));
-                     @include border(1px,#919191,solid,50%);
+                    @include transform(translate(-50%, 0));
+                    @include border(1px,#919191,solid,50%);
                      
                      position: absolute;
                      z-index: 5000;

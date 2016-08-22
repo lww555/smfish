@@ -1,12 +1,12 @@
 <div class="m-index">
   <div id="m-container"></div>
   <footer>
-    <ul>
-      <li class="active">
+    <ul id="index-nav">
+      <li class="active" action-type="switch" data-name="home">
         <i class="iconfont">&#xe618;</i>
         <b>首页</b>
       </li>
-      <li>
+      <li action-type="switch" data-name="com">
         <i class="iconfont">&#xe60e;</i>
         <b>社区</b>
       </li>
@@ -14,11 +14,11 @@
         <i class="iconfont">&#xe61a;</i>
         <b></b>
       </li>
-      <li>
+      <li action-type="switch" data-name="life">
         <i class="iconfont" style="font-size: 23px; line-height: 24px;">&#xe607;</i>
         <b>生活</b>
       </li>
-      <li>
+      <li action-type="switch" data-name="mine">
         <i class="iconfont">&#xe619;</i>
         <b>我的</b>
       </li>

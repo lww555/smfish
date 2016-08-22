@@ -1,0 +1,149 @@
+header{
+  width:100%;
+  height: .44rem;
+  @include flexbox();
+  @include border(0 0 1px 0, #d9d9d9);
+  -webkit-flex-shrink:0;
+  -ms-flex-negative:0;
+  flex-shrink:0;
+  i{
+    width: .44rem;
+    height: 100%;
+    text-align: center;
+    line-height: .44rem;
+    font-size: .22rem;
+    color: rgba(21, 21, 21, 0.8);
+  }
+  span{
+    height: 100%;
+    @include flex();
+    text-align: center;
+    line-height: .44rem;
+    font-size: .18rem;
+    color: rgba(21, 21, 21, 0.8);
+    display: block;
+  }
+}
+nav{
+  width: 100%;
+  height: .44rem;
+  @include flexbox();
+  @include justify-content(space-around);
+  background:#FFF;
+  -webkit-flex-shrink:0;
+  -ms-flex-negative:0;
+  flex-shrink:0;
+  span{
+    display: block;
+    width: 50%;
+    margin: 0 5%;
+    text-align: center;
+    line-height: .44rem;
+    border-bottom: 1px solid #fff;
+    &.active{
+      color: $base-color;
+      font-weight: bolder;
+      border-color: $base-color;
+    }
+  }
+}
+.swiper-container{
+  width: 100%!important;
+  position: relative;
+  @include flex();
+  .swiper-wrapper{
+    #life_scroll2,#life_scroll{
+        width: 100%;
+        height: 84.5vh;
+      }
+    }
+  }
+  .subNav{
+    margin-top: .1rem;
+    width: 100%;
+    height: .91rem;
+    background: #fff;
+    @include border(0 0 1px 0, #d9d9d9);
+    @include flexbox();
+    li{
+      width: 50%;
+      height: 100%;
+      position: relative;
+      &:last-child{
+        @include border(0 0 0 1px, #d9d9d9);
+      }
+      div{
+        width: 1.44rem;
+        height: .61rem;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        margin: auto;
+        @include flexbox();
+        @include justify-content(space-between);
+        img{
+          width: .61rem;
+          height: .61rem;
+          display: block;
+        }
+        p{
+          width: .83rem;
+          display: block;
+          text-align: center;
+          margin-top: 5px;
+          span{
+            display: block;
+            &:first-child{
+              font-size: 16px;
+              color: #212121;
+            }
+            &:last-child{
+              padding-left: 5px;
+              text-align: left;
+              font-size: 12px;
+              color:#616161;
+              @include ellipsis(100%,1);
+            }
+          }
+        }
+      }
+    }
+  }
+  section{
+    @include flex();
+    position: relative;
+    width: 100%;
+    ul{
+      li{
+        background: #fff;
+        margin-top: 10px;
+        position: relative;
+        span{
+          position: absolute;
+          left: 0;
+          top: .21rem;
+          display: block;
+          width: .83rem;
+          height: .23rem;
+          background: url("/smfish/images/lifeImg/biaoqian.png");
+          text-align: center;
+          line-height: .23rem;
+          color: #fff;
+        }
+        img{
+          width: 100%;
+          height: 2.1rem;
+        }
+        p{
+          padding-left: 10px;
+          color: #212121;
+        }
+        .zk_fo_color{
+          color: #616161;
+          font-size: 12px;
+        }
+      }
+    }
+  }
