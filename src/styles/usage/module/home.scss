@@ -41,7 +41,7 @@
                 color: #fff;
                 position: absolute;
                 bottom: .06rem;
-                @include ellipsis(80%,1);
+                @include ellipsis(75%,1);
             }
             .swiper-pagination{
                 text-align:right;
