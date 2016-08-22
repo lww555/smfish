@@ -1,1 +1,116 @@
-<div>she</div>
+<header>
+  <i class="iconfont"></i>
+  <ul id="com-nav">
+    <li class="active">圈子</li>
+    <li>好友</li>
+  </ul>
+  <i class="iconfont">&#xe601;</i>
+</header>
+<div class="swiper-container" id="com-swiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+      <section spa-widget="scroll" data-scroll-id="myScroll">
+        <div>
+          <!--<div class="head">
+            <img src="/footballSNS/images/arrow.png"/>
+            <span>下拉刷新...</span>
+          </div>-->
+          <div class="content-top">
+          	<ul>
+          		<li>
+          			<p><i class="iconfont">&#xe61a;</i></p><b>更多圈子</b><i>欢迎关注</i>
+          		</li>
+          		<li>
+          			<p><i class="iconfont">&#xe61a;</i></p><b>更多圈子</b><i>欢迎关注</i>
+          		</li>
+          		<li>
+          			<p><i class="iconfont">&#xe61a;</i></p><b>更多圈子</b><i>欢迎关注</i>
+          		</li>
+          	</ul>
+          </div>
+          <div class="content-recom">
+          	<div class="contitle">
+          		<span><i></i>推荐圈子</span><p>换一批</p>
+          	</div>
+          	<ul>
+          		<li class="squre">
+          			<b><i></i><i><p>鹭岛民生</p><p>帖子:439379</p></i></b><span class="join">加入</span>
+          		</li>
+          	</ul>
+          </div>
+          <div class="content-recom">
+          	<div class="contitle">
+          		<span><i></i>热帖广场</span>
+          	</div>
+          	<ul class="list">
+          		<li class="fir-list">
+          			<div class="userinfo">
+          				<i class="img"></i><span class="info"><b>爱威武爱威武爱威武爱威武</b><i>24小时前</i></span>
+          			</div>
+          			<div class="title">热帖广场热帖广场热帖广场热帖广场</div>
+          			<div class="detail">热帖广场热帖广场热帖广场热帖广场热帖广场热帖广场热帖广场热帖广场热帖广场热帖广场热帖广场热帖广场热帖广场热帖广场热广场热帖广场</div>
+          			<div class="pic">
+          				 <img src="/smfish/images/comImg/xiaoyu.jpg"/>
+          				 <img src="/smfish/images/comImg/xiaoyu.jpg"/>
+          				 <img src="/smfish/images/comImg/xiaoyu.jpg"/>
+          			</div>
+          			<div class="talk">
+          				  <div class="talk_r">
+          				  		<div class="eye">
+          				  			<i class="iconfont">&#xe617;</i><b>9000</b>
+          				  		</div>
+          				  		<div class="msg">
+          				  			 <i class="iconfont">&#xe613;</i><b>300</b>
+          				  		</div>
+          				  </div>
+          				  <i class="iconfont">&#xe605;</i>
+          			</div>
+          			<div class="talklist">
+          				 <ul>
+          				 	<li>
+          				 		 <i>刘威武：</i><b>你真菜</b>
+          				 	</li>
+          				 	<li>
+          				 		 <i>闫磊：</i><b>我是大帅逼</b>
+          				 	</li>
+          				 	<li>
+          				 		 <i>韩艳萍：</i><b>你在我心中是最美</b>
+          				 	</li>
+          				 </ul>
+          				 <span>查看全部200条评论 ></span>
+          			</div>
+          		</li>
+          	</ul>
+          </div>
+          <!--<div class="foot">
+            <img src="/footballSNS/images/arrow.png"/>
+            <span>上拉加载更多...</span>
+          </div>-->
+        </div>
+      </section>
+    </div>
+    <div class="swiper-slide">
+    	  <section class="myFirend">
+    	  	 <div class="unlogin"></div>
+    	  	 <p>你还没登录呢，赶紧登录吧</p> 
+    	  </section>
+					<ul class="daren">
+						<fieldset>
+							<legend>推荐达人</legend>
+						</fieldset>
+					 	 <li>
+					 	 		<div>
+					 	 				<i class="img"></i><span class="info"><b>宝贝橱柜</b><i>什么也没留下，这家伙...你懂得</i></span>
+					 	 		</div>
+					 	 		<i class="iconfont" style="color:#0ec5ff;">&#xe610;</i>
+					 	 </li>
+					 	 <li>
+					 	 		<div>
+					 	 				<i class="img"></i><span class="info"><b>宝贝橱柜</b><i>什么也没留下，这家伙...你懂得</i></span>
+					 	 		</div>
+					 	 		<i class="iconfont" style="color:#0ec5ff;">&#xe610;</i>
+					 	 </li>
+					</ul>		
+    </div>
+  </div>
+</div>
