@@ -39,6 +39,11 @@ SPA.defineView("home",{
 					}); 
 		        }
 	      });
+	      //上啦加载，下拉刷新
+	      scroll({
+	        scroll: this.widgets.myScroll,
+	        vm: vm
+	      })
 		}
 		
 	}
