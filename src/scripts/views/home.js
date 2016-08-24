@@ -3,14 +3,23 @@ var scroll = require('../utils/scroll.js');
 SPA.defineView("home",{
 	html:homeTpl,
 
-	  plugins: [{
-	    name: 'avalon',
-	    options: function (vm) {
-	      vm.home = [];
-	      vm.nav=[];
-	      vm.list=[];
-	    }
-	  }],
+	  	plugins: [{
+		    name: 'avalon',
+		    options: function (vm) {
+		      vm.home = [];
+		      vm.nav=[];
+		      vm.list=[];
+		    }
+		}],
+		bindActions: {
+		    'goto.tiezi': function (el, data) {
+		      SPA.open('tiezi', {
+//		        param: {
+//		          id: data.id
+//		        }
+		      });
+		    }
+		},
 	// 绑定视图事件
 	bindEvents:{
 		'show': function (){
