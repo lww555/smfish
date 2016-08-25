@@ -1,0 +1,49 @@
+<div id="zk_detail">
+    <header>
+        <div>
+            <span>
+                <i class="iconfont">&#xe604;</i>
+            </span>
+        </div>
+        <h3>
+            圈子主页
+        </h3>
+        <div>
+            <span>
+                <i class="iconfont">&#xe601;</i>
+            </span>
+        </div>
+    </header>
+    <section class="banenr">
+        <div class="beijing">
+            <img src="/smfish/images/detailImg/6.jpg" alt="" class="blur"/>
+        </div>
+        <div class="center">
+            <div>
+                <img src="/smfish/images/detailImg/6.jpg" alt=""/>
+                <h3>物尽其用</h3>
+                <p>
+                    <span>成员：</span><span>6332</span>&nbsp; | &nbsp;<span>帖子：</span><span>168665</span>
+                </p>
+                <span class="action">加入</span>
+            </div>
+        </div>
+    </section>
+    <nav>
+        <ul class="nav_list">
+            <li><a><img src="/smfish/images/detailImg/ding.png" alt=""/><span>法院临时立案，卖假手机被传唤出庭！卖假手机被传唤出庭</span></a></li>
+            <li><a><img src="/smfish/images/detailImg/ding.png" alt=""/><span>法院临时立案，卖假手机被传唤出庭！卖假手机被传唤出庭</span></a></li>
+            <li><a><img src="/smfish/images/detailImg/ding.png" alt=""/><span>法院临时立案，卖假手机被传唤出庭！卖假手机被传唤出庭</span></a></li>
+            <li><a><img src="/smfish/images/detailImg/ding.png" alt=""/><span>法院临时立案，卖假手机被传唤出庭！卖假手机被传唤出庭</span></a></li>
+            <li><a><img src="/smfish/images/detailImg/ding.png" alt=""/><span>法院临时立案，卖假手机被传唤出庭！卖假手机被传唤出庭</span></a></li>
+            <li><a><img src="/smfish/images/detailImg/ding.png" alt=""/><span>法院临时立案，卖假手机被传唤出庭！卖假手机被传唤出庭</span></a></li>
+            <li><a><img src="/smfish/images/detailImg/ding.png" alt=""/><span>法院临时立案，卖假手机被传唤出庭！卖假手机被传唤出庭</span></a></li>
+        </ul>
+        <div class="down"><i class="iconfont">&#xe606;</i></div>
+    </nav>
+    <ul class="subNav">
+        <li class="active">新回帖</li>
+        <li>新发布</li>
+        <li>热门</li>
+    </ul>
+</div>
