@@ -32,6 +32,9 @@
         width: 100%;
     }
     footer{
-        height: .;
+        @include flexbox()
+        @include border(1px 0 0 0,#d5d5d5);
+        height: .67rem;
+        background: #fff;
     }
 }
