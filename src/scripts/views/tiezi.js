@@ -18,6 +18,11 @@ SPA.defineView("tiezi",{
 	      }
 	    }
 	],
+	 bindActions: {
+	    'back': function () {
+	      this.hide();
+	    }
+	  },
 	
 	  bindEvents: {
 	    'show': function () {

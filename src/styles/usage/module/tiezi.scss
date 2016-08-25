@@ -32,9 +32,27 @@
         width: 100%;
     }
     footer{
-        @include flexbox()
-        @include border(1px 0 0 0,#d5d5d5);
+        @include flexbox();
+        @include justify-content(space-around);
+        @include align-items(center);
+        @include border(1px 0 0 0,$bder-color);
         height: .67rem;
         background: #fff;
+        input{
+            @include border(1px,#e8e8e8,solid,2px);
+            border:none;
+            color:#868686;
+            height:.43rem;
+            background: #f7f7f7;
+        }
+        button{
+            border:none;
+            border-radius: 3px;
+            padding: 5px 10px;
+            color: #fff;
+            height:.34rem;
+            text-align: center;
+            background: #10c5fe;
+        }
     }
 }
