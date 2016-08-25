@@ -32,6 +32,45 @@
     }
     
     .scroll{
+        // pull-to-refresh
+        .head {
+            text-align: center;
+            height: .35rem;
+            line-height: .35rem;
+            display: none;
+        }
+        .head img {
+            width: .16rem;
+            height: .16rem;
+            display: inline-block;
+            transform: rotate(180deg);
+            -webkit-transform: rotate(180deg);
+            transition: transform 150ms;
+            -webkit-transition: transform 150ms;
+        }
+        .up {
+            transform: rotate(360deg) !important;
+            -webkit-transform: rotate(360deg) !important;
+        }
+        .foot {
+            text-align: center;
+            height: .35rem;
+            line-height: .35rem;
+            display: none;
+        }
+        .foot img {
+            width: .16rem;
+            height: .16rem;
+            display: inline-block;
+            /*transform: rotate(0deg);*/
+            /*-webkit-transform: rotate(0deg);*/
+            transition: transform 150ms;
+            -webkit-transition: transform 150ms;
+        }
+        .down {
+            transform: rotate(180deg) !important;
+            -webkit-transform: rotate(180deg) !important;
+        }
         //轮播区
         .swiper-container{
             img{
@@ -43,7 +82,6 @@
                 color: #fff;
                 position: absolute;
                 bottom: .06rem;
-                @include ellipsis(80%,1);
                 @include ellipsis(75%,1);
             }
             .swiper-pagination{
@@ -104,9 +142,29 @@
                 @include justify-content(space-between);
                 @include border(0 0 1px 0,#e4e4e4);
                 padding: 18px 0;
+                position: relative;
+                h5{
+                    height: auto;                
+                }
                 img{
                     width:1.04rem;
                     height: .80rem;
+                }
+                .info{
+                    font-size: .10rem;
+                    height: .15rem;
+                    line-height: .15rem;
+                    color: #8a8a8a;
+                    span{
+                        display: inline-block;
+                        height: .15rem;
+                        line-height: .15rem;
+                    }
+                    span:last-child{
+                        
+                        @include border-radius(5px);
+                        background: #f4f4f4;
+                    }
                 }
             }
             .type3{
@@ -130,9 +188,21 @@
                     }
                     
                 }
-                p{
+                .info{
+                    font-size: .10rem;
                     height: .53rem;
                     line-height: .53rem;
+                    color: #8a8a8a;
+                    span{
+                        display: inline-block;
+                        height: .15rem;
+                        line-height: .15rem;
+                    }
+                    span:last-child{
+                        
+                        @include border-radius(5px);
+                        background: #f4f4f4;
+                    }
                 }
             }
             

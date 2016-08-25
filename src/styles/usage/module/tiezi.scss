@@ -1,0 +1,58 @@
+#m-tiezi{
+    @include flexbox();
+    @include flex-direction(column);
+    height: 100%;
+    font-size: .15rem;
+    header{
+        height:.44rem;
+        width:100%;
+        @include flexbox();
+//      @include align-items(center);
+        @include justify-content(space-between);
+        background:#f9f9f9;
+        border-bottom:1px solid #d5d5d5;
+        h1{
+            @include flex();
+            height:100%;
+            text-align: center;
+            line-height:.44rem;
+            font-size:.16rem ;
+        }
+        span{
+            width: .44rem;
+            line-height:.44rem;
+            text-align: center;
+        }
+    }
+    section{
+        @include flex();
+        padding:0 10px ;
+        background: url(/smfish/images/homeImg/tiezi.jpg) no-repeat;
+        background-size:100% ;
+        width: 100%;
+    }
+    footer{
+        @include flexbox();
+        @include justify-content(space-around);
+        @include align-items(center);
+        @include border(1px 0 0 0,$bder-color);
+        height: .67rem;
+        background: #fff;
+        input{
+            @include border(1px,#e8e8e8,solid,2px);
+            border:none;
+            color:#868686;
+            height:.43rem;
+            background: #f7f7f7;
+        }
+        button{
+            border:none;
+            border-radius: 3px;
+            padding: 5px 10px;
+            color: #fff;
+            height:.34rem;
+            text-align: center;
+            background: #10c5fe;
+        }
+    }
+}

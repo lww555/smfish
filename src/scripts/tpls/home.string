@@ -6,8 +6,13 @@
 		<i class="iconfont">&#xe60a;</i>
 		<i class="iconfont">&#xe60c;</i>
 	</header>
-	<div spa-widget="scroll" >
+	<div spa-widget="scroll" data-scroll-id="myScroll">
 		<div class="scroll" >
+			<!--下拉刷新-->
+			<div class="head">
+	            <img src="/smfish/images/homeImg/ajax-loader.gif"/>
+	            <span>下拉刷新...</span>
+	        </div>
 			<div class="swiper-container">
 			    <div class="swiper-wrapper">
 			        <div class="swiper-slide"  ms-repeat-el="home">
@@ -23,23 +28,33 @@
 			   
 			</div>
 			<ul class="mainnav">
-				<li ms-repeat-el="nav">
+				<li ms-repeat-el="nav" action-type="goto.detail">
 					<img ms-src="el.icon"/>
 					<b ms-text="el.title"></b>
 				</li>
 			</ul>
 			<ul class="list">
 				<li ms-repeat-el="list" >
-					<div ms-if="el.show_type!=1&&el.show_type!=3" class="type2">
+					<div ms-if="el.show_type!=1&&el.show_type!=3" class="type2" action-type="goto.tiezi" ms-attr-data-id="el.id">
 						<h5 ms-text="el.title"></h5>
 						<img ms-src="el.imgs[0].pic"/>
-						<p>3天前</p>
+						<p ms-text="el.time | date('HH:mm:ss')"></p>
 					</div>
-					<div ms-if="el.show_type!=2&&el.show_type!=3" class="type1">
-						<h5 ms-text="el.title"></h5>
+					<div ms-if="el.show_type!=2&&el.show_type!=3" class="type1" action-type="goto.tiezi" ms-attr-data-id="el.id">
+						<div>
+							<h5 ms-text="el.title"></h5>
+							<div class="info">
+								<span ms-text="el.hits"></span>人阅读·
+								<span ms-text="el.time | date('HH:mm:ss')"></span>
+								<span ms-text="el.qname"></span>
+							</div>
+						</div>
+						
 						<img ms-src="el.imgs[0].pic" />
+						<!--<span ms-text="el.time | date('yyyy MM dd:HH:mm:ss')"></span>-->
+						
 					</div>
-					<div ms-if="el.show_type!=2&&el.show_type!=1" class="type3">
+					<div ms-if="el.show_type!=2&&el.show_type!=1" class="type3" action-type="goto.tiezi" ms-attr-data-id="el.id">
 						<h5 ms-text="el.title"></h5>
 						<div class="imgbox">
 							<img ms-src="el.imgs[0].pic" />
@@ -48,12 +63,21 @@
 							<div style="width：5px"></div>
 							<img ms-src="el.imgs[2].pic" />
 						</div>
-						<p>3天前</p>
+						<div class="info">
+								<span ms-text="el.hits"></span>人阅读 ·
+								<span ms-text="el.time | date('HH:mm:ss')"></span>
+								<span ms-text="el.qname"></span>
+						</div>
 					</div>
 					<!--<h5 ms-text="el.title" ms-if="el.show_type!=2" class=""></h5>
 					<img ms-src="el.imgs[0].pic" ms-if="el.show_type!=1"/>-->
 				</li>
 			</ul>
+			<!--上拉加载-->
+			<div class="foot">
+	            <img src="/smfish/images/homeImg/ajax-loader.gif"/>
+	            <span>上拉加载更多...</span>
+	        </div>
 		</div>
 	</div>
 </div>
