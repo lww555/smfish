@@ -22,9 +22,13 @@
   header{
     width: 100%;
     height: 0.44rem;
+    position: absolute;
     @include flexbox();
     @include justify-content(space-between);
     z-index: 100;
+    &.downl{
+      background: #fff;
+    }
     div{
       width: 10%;
       height: .44rem;
@@ -143,6 +147,9 @@
     background: #fff;
     margin-top: .1rem;
     line-height: .44rem;
+    -webkit-flex-shrink:0;
+    -ms-flex-negative:0;
+    flex-shrink:0;
     @include flexbox();
     @include justify-content(space-between);
     @include border(0 0 1px 0,$bder-color,solid);
@@ -154,5 +161,28 @@
         border-bottom: 2px solid $base-color;
       }
     }
+  }
+  .swiper-container{
+    width: 100%;
+      .swiper-slide{
+        width: 100%;
+        .detail_contail_list{
+          li{
+            width: 100vw;
+            padding: .1rem;
+            
+            img{
+              width: .44rem;
+              height: .44rem;
+              @include border-radius(50%)
+            }
+            .detail_article{
+              span{
+                @include ellipsis(100%,3);
+              }
+            }
+          }
+        }
+      }
   }
 }
