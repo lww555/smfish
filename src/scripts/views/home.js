@@ -18,6 +18,13 @@ SPA.defineView("home",{
 		          id: data.id
 		        }
 		      });
+		    },
+		    "goto.detail":function(el, data){
+		    	SPA.open('detail', {
+			        param: {
+			          id: data.id
+			        }
+			      });
 		    }
 		},
 	// 绑定视图事件

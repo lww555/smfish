@@ -28,7 +28,7 @@
 			   
 			</div>
 			<ul class="mainnav">
-				<li ms-repeat-el="nav">
+				<li ms-repeat-el="nav" action-type="goto.detail">
 					<img ms-src="el.icon"/>
 					<b ms-text="el.title"></b>
 				</li>
