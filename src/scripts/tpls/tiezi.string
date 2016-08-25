@@ -1,5 +1,13 @@
-<header>
-	<span class="iconfont"></span>
-	<h2>帖子</h2>
-	<span class="iconfont h_span">&#xe613;</span>
-</header>
+<div id="m-tiezi">
+	<header>
+		<span class="iconfont">&#xe604;</span>
+		<h1>帖子详情</h1>
+		<span class="iconfont">&#xe605;</span>
+	</header>
+	<section>
+		
+	</section>
+	<footer>
+		
+	</footer>
+</div>

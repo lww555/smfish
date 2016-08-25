@@ -3,7 +3,7 @@ var scroll = require('../utils/scroll.js');
 SPA.defineView("home",{
 	html:homeTpl,
 
-	  	plugins: [{
+	  	plugins: ['delegated', {
 		    name: 'avalon',
 		    options: function (vm) {
 		      vm.home = [];
@@ -14,9 +14,9 @@ SPA.defineView("home",{
 		bindActions: {
 		    'goto.tiezi': function (el, data) {
 		      SPA.open('tiezi', {
-//		        param: {
-//		          id: data.id
-//		        }
+		        param: {
+		          id: data.id
+		        }
 		      });
 		    }
 		},
