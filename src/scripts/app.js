@@ -9,3 +9,5 @@ require('./views/life.js');
 require('./views/mine.js');
 require('./views/login.js');
 require('./views/tiezi.js');
+require('./views/detail.js');
+

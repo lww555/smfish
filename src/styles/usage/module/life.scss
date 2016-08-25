@@ -1,5 +1,8 @@
-
 #zk_life{
+  width: 100%;
+  height: 100%;
+  @include flexbox();
+  @include flex-direction(column);
   header{
     width:100%;
     height: .44rem;
@@ -54,14 +57,17 @@
     position: relative;
     @include flex();
     .swiper-wrapper{
+      width: 100%;
+      height: 100%;
+      position: absolute;
       #life_scroll2,#life_scroll{
         width: 100%;
-        height: 84.5vh;
+        height: 100%;
       }
     }
   }
   .subNav{
-    margin-top: .1rem;
+    border-top: .1rem solid #ebebeb;
     width: 100%;
     height: .91rem;
     background: #fff;
@@ -106,7 +112,7 @@
               text-align: left;
               font-size: 12px;
               color:#616161;
-              @include ellipsis(100%,1);
+              @include ellipsis(80%,1);
             }
           }
         }
@@ -120,7 +126,7 @@
     ul{
       li{
         background: #fff;
-        margin-top: 10px;
+        border-top: .1rem solid #ebebeb;
         position: relative;
         span{
           position: absolute;
