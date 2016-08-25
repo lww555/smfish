@@ -1,0 +1,14 @@
+<div id="m-tiezi">
+	<header>
+		<span class="iconfont" action-type="back">&#xe604;</span>
+		<h1>帖子详情</h1>
+		<span class="iconfont">&#xe605;</span>
+	</header>
+	<section>
+		
+	</section>
+	<footer>
+		<input type="text" placeholder="回复内容：" />
+		<button>回复</button>
+	</footer>
+</div>

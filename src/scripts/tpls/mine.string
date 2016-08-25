@@ -1,15 +1,27 @@
 <div id="h_mine">
-	<header>
+	<header action-type="goto.login" ms-attr-data-id="el.id">
 		<span class="iconfont"></span>
 		<h2>我的</h2>
 		<span class="iconfont h_span">&#xe613;</span>
 	</header>
-	<div class="h-log">
-		<img src="./images/h_1.jpg"/>
-		<span>暂无信息，请登录！</span>
-		<i class="iconfont">&#xe606;</i>
+	<div class="h-log" action-type="goto.login" ms-attr-data-id="el.id">
+		<div class="h_mine1">
+			<img action-type="goto.login" ms-attr-data-id="el.id" src="./images/h_1.jpg"/>
+			<span action-type="goto.login" ms-attr-data-id="el.id">暂无信息，请登录！</span>
+			<i class="iconfont">&#xe606;</i>
+		</div>
+		<div class="h_mine2">
+			<div>
+			<img action-type="goto.login" ms-attr-data-id="el.id" src="./images/h_1.jpg"/>
+			<dl>
+				<dt action-type="goto.login" ms-attr-data-id="el.id">暂无信息，请登录！</dt>
+				<dd>1234567</dd>
+			</dl>
+			<i class="iconfont">&#xe606;</i>
+		</div>
+		<!---->
 	</div>
-	<nav class="h_nav">
+	<nav class="h_nav"  action-type="goto.login" ms-attr-data-id="el.id">
 		<ul>
 			<li>
 				<i class="iconfont">&#xe616;</i>
@@ -29,7 +41,7 @@
 			</li>
 		</ul>
 	</nav>
-	<section>
+	<section  action-type="goto.login" ms-attr-data-id="el.id">
 		<ul>
 			<li>
 				<i class="iconfont">&#xe618;</i>

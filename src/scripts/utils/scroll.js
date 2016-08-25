@@ -1,6 +1,6 @@
 // pullToRefresh
 module.exports = function (opt) {
-  opt.eleHeadAndFoot = $('#home-swiper');
+  opt.eleHeadAndFoot = $('#home');
   opt.objRefreshAjax = {
     url: '/api/livelist.php',
     type: 'get',
@@ -8,7 +8,10 @@ module.exports = function (opt) {
       type: 'refresh'
     },
     success: function (res) {
-      opt.vm.livelist = res.data.concat(opt.vm.livelist);
+    	console.log(opt.vm)
+    	opt.vm.home = res.data.tui;
+		  opt.vm.nav = res.data.icons;
+		  opt.vm.list = res.data.list;
     }
   };
   opt.objMoreAjax = {
@@ -24,7 +27,7 @@ module.exports = function (opt) {
         myScroll.refresh();
         myScroll.scrollTo(0, self.y + topSize);
         foot.removeClass('down');
-        foot.attr('src', '/footballSNS/images/arrow.png');
+        foot.attr('src', '/smfish/images/homeImg/arrow.png');
     }
   };
 
@@ -58,7 +61,7 @@ module.exports = function (opt) {
       myScroll.scrollTo(0, -topSize);
       head.removeClass('up');
     } else if (this.y >= 0) {
-      head.attr('src', '/footballSNS/images/ajax-loader.gif');
+      head.attr('src', '/smfish/images/homeImg/ajax-loader.gif');
       //TODO ajax下拉刷新数据
 
       $.ajax({
@@ -73,7 +76,7 @@ module.exports = function (opt) {
       setTimeout(function () {
         myScroll.scrollTo(0, -topSize);
         head.removeClass('up');
-        head.attr('src', '/footballSNS/images/arrow.png');
+        head.attr('src', '/smfish/images/homeImg/arrow.png');
       }, 1000);
     }
 
@@ -83,7 +86,7 @@ module.exports = function (opt) {
       myScroll.scrollTo(0, self.maxScrollY + topSize);
       foot.removeClass('down')
     } else if (maxY >= 0) {
-      foot.attr('src', '/footballSNS/images/ajax-loader.gif');
+      foot.attr('src', '/smfish/images/homeImg/ajax-loader.gif');
       // ajax上拉加载数据
       $.ajax({
         url: '/api/livelist.php',
@@ -93,12 +96,14 @@ module.exports = function (opt) {
           pageNo: 2
         },
         success: function (res) {
-          opt.vm.livelist.pushArray(res.data);
+        	console.log(res.data)
+        	console.log(res.data.list)
+          opt.vm.list.pushArray(res.data.list);
 
           myScroll.refresh();
           myScroll.scrollTo(0, self.y + topSize);
           foot.removeClass('down');
-          foot.attr('src', '/footballSNS/images/arrow.png');
+          foot.attr('src', '/smfish/images/homeImg/arrow.png');
         }
       });
     }

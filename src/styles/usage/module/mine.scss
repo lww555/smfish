@@ -33,9 +33,48 @@
         height:.92rem;
         width:100%;
         background:#fff;
-         @include flexbox();
-        @include align-items(center);
-        img{
+         
+        .h_mine2{
+             display:none;
+            height: 100%;
+            div{
+                    height:.92rem;
+                    width:100%;
+                    @include flexbox();
+                    @include align-items(center);
+                      
+                    img{
+                    display: block;
+                    height:62%;
+                    margin:0 .15rem;
+                 
+                }
+                dl{
+                    @include flex();
+                    height:100%;
+                    @include flexbox();
+                     @include flex-direction(column);
+                   @include justify-content(center);
+                   width: 100%;
+                   
+                }
+                i{
+                    color:#c6c6c6;
+                    display: block;
+                    height:.12rem;
+                    line-height:.12rem;
+                    margin-right:.15rem;
+                   
+                }
+             }
+        }
+        .h_mine1{
+            height:.92rem;
+            width:100%;
+            @include flexbox();
+             @include align-items(center);
+          
+            img{
             display: block;
             height:62%;
              margin:0 .15rem;
@@ -53,6 +92,8 @@
             line-height:.12rem;
             margin-right:.15rem;
         }
+        }
+        
     }
     .h_nav{
         margin:.10rem 0;
@@ -106,6 +147,7 @@
                     display: block;
                     height:.12rem;
                     line-height:.12rem;
+                    text-align: center;
                    width:.44rem;
                    background: none;
                    position:static;

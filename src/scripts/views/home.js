@@ -3,14 +3,30 @@ var scroll = require('../utils/scroll.js');
 SPA.defineView("home",{
 	html:homeTpl,
 
-	  plugins: [{
-	    name: 'avalon',
-	    options: function (vm) {
-	      vm.home = [];
-	      vm.nav=[];
-	      vm.list=[];
-	    }
-	  }],
+	  	plugins: ['delegated', {
+		    name: 'avalon',
+		    options: function (vm) {
+		      vm.home = [];
+		      vm.nav=[];
+		      vm.list=[];
+		    }
+		}],
+		bindActions: {
+		    'goto.tiezi': function (el, data) {
+		      SPA.open('tiezi', {
+		        param: {
+		          id: data.id
+		        }
+		      });
+		    },
+		    "goto.detail":function(el, data){
+		    	SPA.open('detail', {
+			        param: {
+			          id: data.id
+			        }
+			      });
+		    }
+		},
 	// 绑定视图事件
 	bindEvents:{
 		'show': function (){
@@ -39,6 +55,11 @@ SPA.defineView("home",{
 					}); 
 		        }
 	      });
+	      //上啦加载，下拉刷新
+	      scroll({
+	        scroll: this.widgets.myScroll,
+	        vm: vm
+	      })
 		}
 		
 	}

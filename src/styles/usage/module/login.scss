@@ -1,20 +1,24 @@
 #h_login{  
     .h_deng{
         height:.44rem;
-        width:100%;
+        width:90%;
+        margin:0 auto;
         border-bottom:1px solid #eee; 
         @include flexbox();
-        @include justify-content(center);
+        @include justify-content(space-between);
         i{
            display: block;
            height:.44rem;
+           line-height: .44rem;
         }
         h2{
            height:.44rem;  
+            line-height: .44rem;
         }
         span{
            display: block; 
             height:.44rem;
+             line-height: .44rem;
         }
     }
     form{
