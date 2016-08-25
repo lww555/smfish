@@ -9,7 +9,7 @@
 			账户:<input class="user" type="text" placeholder="手机号/用户名"/>
 		</div>
 		<div>
-			密码:<input class="password" type="password" value="请输入密码"/>
+			密码:<input class="password" type="password" placeholder="请输入密码"/>
 		</div>
 	</form>
 	<div class="forget">
