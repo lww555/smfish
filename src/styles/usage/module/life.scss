@@ -112,7 +112,7 @@
               text-align: left;
               font-size: 12px;
               color:#616161;
-              @include ellipsis(100%,1);
+              @include ellipsis(80%,1);
             }
           }
         }
