@@ -176,9 +176,16 @@
               height: .44rem;
               @include border-radius(50%)
             }
+            i{
+              font-size: 12px;
+              font-style: normal;
+              color: #929292;
+            }
             .detail_article{
               span{
                 @include ellipsis(100%,3);
+                font-size: .14rem;
+                color: #535353;
               }
             }
           }

@@ -1,7 +1,7 @@
 <div  id="zk_detail">
     <header class="detail_top">
         <div>
-            <span>
+            <span action-type="back">
                 <i class="iconfont">&#xe604;</i>
             </span>
         </div>
@@ -50,9 +50,25 @@
                             <li ms-repeat-el="tiezilist">
                                 <p>
                                     <span><img ms-src="el.avatar"></span>
+                                    <span>
+                                        <b ms-text="el.author"></b>
+                                        &nbsp;&nbsp;&nbsp;<i>1小时前</i>
+                                    </span>
+                                </p>
+                                <p class="detail_article">
+                                    <span ms-text="el.descrip"></span>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="swiper-slide">
+                        <ul class="detail_contail_list">
+                            <li ms-repeat-el="tiezilist">
+                                <p>
+                                    <span><img ms-src="el.avatar"></span>
                     <span>
                         <b ms-text="el.author"></b>
-                        <span>1小时前</span>
+                        &nbsp;&nbsp;&nbsp;<i>1小时前</i>
                     </span>
                                 </p>
                                 <p class="detail_article">
@@ -68,23 +84,7 @@
                                     <span><img ms-src="el.avatar"></span>
                     <span>
                         <b ms-text="el.author"></b>
-                        <span>1小时前</span>
-                    </span>
-                                </p>
-                                <p class="detail_article">
-                                    <span ms-text="el.descrip"></span>
-                                </p>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="swiper-slide">
-                        <ul class="detail_contail_list">
-                            <li ms-repeat-el="tiezilist">
-                                <p>
-                                    <span><img ms-src="el.avatar"></span>
-                    <span>
-                        <b ms-text="el.author"></b>
-                        <span>1小时前</span>
+                       &nbsp;&nbsp;&nbsp;<i>1小时前</i>
                     </span>
                                 </p>
                                 <p class="detail_article">
