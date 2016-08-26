@@ -23,6 +23,10 @@ module.exports = {
     {
       pattern: /\/api\/livelist\.php\?type=car\&pageNo=1/,
       respondwith: './life_json/car.json'
+    },
+    {
+      pattern: /\/api\/livelist\.php\?type=detail\&pageNo=1/,
+      respondwith: './life_json/dedail.json'
     }
   ]
 };

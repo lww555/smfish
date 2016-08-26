@@ -1,5 +1,5 @@
-<div id="zk_detail">
-    <header>
+<div  id="zk_detail">
+    <header class="detail_top">
         <div>
             <span>
                 <i class="iconfont">&#xe604;</i>
@@ -14,36 +14,87 @@
             </span>
         </div>
     </header>
-    <section class="banenr">
-        <div class="beijing">
-            <img src="/smfish/images/detailImg/6.jpg" alt="" class="blur"/>
-        </div>
-        <div class="center">
-            <div>
-                <img src="/smfish/images/detailImg/6.jpg" alt=""/>
-                <h3>物尽其用</h3>
-                <p>
-                    <span>成员：</span><span>6332</span>&nbsp; | &nbsp;<span>帖子：</span><span>168665</span>
-                </p>
-                <span class="action">加入</span>
+    <div  spa-widget="scroll" data-scroll-id="myScroll">
+        <div>
+            <div style="height: .44rem;"></div>
+            <section class="banenr">
+                <div class="beijing">
+                    <img src="/smfish/images/detailImg/6.jpg" alt="" class="blur"/>
+                </div>
+                <div class="center">
+                    <div>
+                        <img src="/smfish/images/detailImg/6.jpg" alt=""/>
+                        <h3>物尽其用</h3>
+                        <p>
+                            <span>成员：</span><span>6332</span>&nbsp; | &nbsp;<span>帖子：</span><span>168665</span>
+                        </p>
+                        <span class="action">加入</span>
+                    </div>
+                </div>
+            </section>
+            <nav>
+                <ul class="nav_list">
+                    <li ms-repeat-el="lifecontainer"><a><img src="/smfish/images/detailImg/ding.png" alt=""/><span ms-text="el.title"></span></a></li>
+                </ul>
+                <div class="down"><i class="iconfont">&#xe606;</i></div>
+            </nav>
+            <ul class="subNav">
+                <li class="active">新回帖</li>
+                <li>新发布</li>
+                <li>热门</li>
+            </ul>
+            <div class="swiper-container detail_contail" id="detail_swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <ul class="detail_contail_list">
+                            <li ms-repeat-el="tiezilist">
+                                <p>
+                                    <span><img ms-src="el.avatar"></span>
+                    <span>
+                        <b ms-text="el.author"></b>
+                        <span>1小时前</span>
+                    </span>
+                                </p>
+                                <p class="detail_article">
+                                    <span ms-text="el.descrip"></span>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="swiper-slide">
+                        <ul class="detail_contail_list">
+                            <li ms-repeat-el="tiezilist">
+                                <p>
+                                    <span><img ms-src="el.avatar"></span>
+                    <span>
+                        <b ms-text="el.author"></b>
+                        <span>1小时前</span>
+                    </span>
+                                </p>
+                                <p class="detail_article">
+                                    <span ms-text="el.descrip"></span>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="swiper-slide">
+                        <ul class="detail_contail_list">
+                            <li ms-repeat-el="tiezilist">
+                                <p>
+                                    <span><img ms-src="el.avatar"></span>
+                    <span>
+                        <b ms-text="el.author"></b>
+                        <span>1小时前</span>
+                    </span>
+                                </p>
+                                <p class="detail_article">
+                                    <span ms-text="el.descrip"></span>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
-    </section>
-    <nav>
-        <ul class="nav_list">
-            <li><a><img src="/smfish/images/detailImg/ding.png" alt=""/><span>法院临时立案，卖假手机被传唤出庭！卖假手机被传唤出庭</span></a></li>
-            <li><a><img src="/smfish/images/detailImg/ding.png" alt=""/><span>法院临时立案，卖假手机被传唤出庭！卖假手机被传唤出庭</span></a></li>
-            <li><a><img src="/smfish/images/detailImg/ding.png" alt=""/><span>法院临时立案，卖假手机被传唤出庭！卖假手机被传唤出庭</span></a></li>
-            <li><a><img src="/smfish/images/detailImg/ding.png" alt=""/><span>法院临时立案，卖假手机被传唤出庭！卖假手机被传唤出庭</span></a></li>
-            <li><a><img src="/smfish/images/detailImg/ding.png" alt=""/><span>法院临时立案，卖假手机被传唤出庭！卖假手机被传唤出庭</span></a></li>
-            <li><a><img src="/smfish/images/detailImg/ding.png" alt=""/><span>法院临时立案，卖假手机被传唤出庭！卖假手机被传唤出庭</span></a></li>
-            <li><a><img src="/smfish/images/detailImg/ding.png" alt=""/><span>法院临时立案，卖假手机被传唤出庭！卖假手机被传唤出庭</span></a></li>
-        </ul>
-        <div class="down"><i class="iconfont">&#xe606;</i></div>
-    </nav>
-    <ul class="subNav">
-        <li class="active">新回帖</li>
-        <li>新发布</li>
-        <li>热门</li>
-    </ul>
+    </div>
 </div>
