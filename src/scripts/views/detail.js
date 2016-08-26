@@ -4,7 +4,8 @@
 var detailTpl= require('../tpls/detail.string');
 SPA.defineView('detail',{
     html:detailTpl,
-    plugins: [{
+    plugins: [
+        'delegated',{
             name: 'avalon',
             options: function (vm) {
                 vm.lifecontainer = [];
@@ -12,6 +13,11 @@ SPA.defineView('detail',{
             }
         }
     ],
+    bindActions: {
+        'back': function () {
+            this.hide();
+        }
+    },
     bindEvents:{
         "show":function(){
             var vm=this.getVM();
@@ -24,7 +30,7 @@ SPA.defineView('detail',{
                 success:function(msg){
                    /* vm.navlist=msg.data.icons;
                     vm.lifecontainer=msg.data.life;*/
-                    console.log(msg)
+                   // console.log(msg)
                     vm.lifecontainer=msg.data.thread.top;
                     vm.tiezilist=msg.data.list
                 }
