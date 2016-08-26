@@ -25,11 +25,58 @@
         }
     }
     section{
+        
         @include flex();
         padding:0 10px ;
-        background: url(/smfish/images/homeImg/tiezi.jpg) no-repeat;
+        background:#fff ;
+//      background: url(/smfish/images/homeImg/tiezi.jpg) no-repeat;
         background-size:100% ;
-        width: 100%;
+        width: 100%;        
+        .head{
+            height:.66rem;
+            @include flexbox();
+            @include border(0 0 1px 0,#e8e8e8);
+            @include align-items(center);
+            img{
+                width:.44rem;
+                height:.44rem;
+            }
+            div{
+                @include flex();
+                text-indent: .15rem;
+            }
+            i{
+                width: .44rem;
+                text-align: center;
+                color: #15cdff;
+            }
+        }
+        h1{
+            line-height: .63rem;
+        }
+        .second{
+            height:.17rem;
+            @include flexbox();
+            @include align-items(center);
+            font-size: .12rem;
+            color: #989898;
+            padding-bottom: .27rem;
+            span{
+//              width:.44rem;
+            }
+            div{
+                @include flex();
+                text-indent: .15rem;
+            }
+            i{
+                width: .44rem;
+                text-align: center;
+            }
+        }
+        
+    }
+    p{
+        
     }
     footer{
         @include flexbox();

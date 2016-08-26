@@ -15,14 +15,14 @@ SPA.defineView("home",{
 		    'goto.tiezi': function (el, data) {
 		      SPA.open('tiezi', {
 		        param: {
-		          id: data.id
+		          id: data.title
 		        }
 		      });
 		    },
 		    "goto.detail":function(el, data){
 		    	SPA.open('detail', {
 			        param: {
-			          id: data.id
+			          id: data.title
 			        }
 			      });
 		    }

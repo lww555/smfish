@@ -28,19 +28,19 @@
 			   
 			</div>
 			<ul class="mainnav">
-				<li ms-repeat-el="nav" action-type="goto.detail">
+				<li ms-repeat-el="nav" action-type="goto.detail" ms-attr-data-id="title">
 					<img ms-src="el.icon"/>
 					<b ms-text="el.title"></b>
 				</li>
 			</ul>
 			<ul class="list">
 				<li ms-repeat-el="list" >
-					<div ms-if="el.show_type!=1&&el.show_type!=3" class="type2" action-type="goto.tiezi" ms-attr-data-id="el.id">
+					<div ms-if="el.show_type!=1&&el.show_type!=3" class="type2" action-type="goto.tiezi" ms-attr-data-id="el.title">
 						<h5 ms-text="el.title"></h5>
 						<img ms-src="el.imgs[0].pic"/>
 						<p ms-text="el.time | date('HH:mm:ss')"></p>
 					</div>
-					<div ms-if="el.show_type!=2&&el.show_type!=3" class="type1" action-type="goto.tiezi" ms-attr-data-id="el.id">
+					<div ms-if="el.show_type!=2&&el.show_type!=3" class="type1" action-type="goto.tiezi" ms-attr-data-id="el.title">
 						<div>
 							<h5 ms-text="el.title"></h5>
 							<div class="info">
@@ -54,7 +54,7 @@
 						<!--<span ms-text="el.time | date('yyyy MM dd:HH:mm:ss')"></span>-->
 						
 					</div>
-					<div ms-if="el.show_type!=2&&el.show_type!=1" class="type3" action-type="goto.tiezi" ms-attr-data-id="el.id">
+					<div ms-if="el.show_type!=2&&el.show_type!=1" class="type3" action-type="goto.tiezi" ms-attr-data-id="el.title">
 						<h5 ms-text="el.title"></h5>
 						<div class="imgbox">
 							<img ms-src="el.imgs[0].pic" />
