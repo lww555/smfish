@@ -8,6 +8,10 @@ module.exports = {
       pattern: /\/api\/login\.php\?type=more\&pageNo=1/,
       respondwith: './login.json'
 		},
+      {
+      pattern: /\/api\/more\.php\?type=more\&pageNo=1/,
+      respondwith: './more.json'
+    },
     {
       pattern: /\/api\/livelist\.php\?type=more\&pageNo=2/,
       respondwith: './home-more.json'
