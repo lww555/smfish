@@ -2,6 +2,23 @@ var comTpl = require('../tpls/com.string');
 //var scroll = require('../utils/scroll.js');
 SPA.defineView("com",{
 	html:comTpl,
+	
+	plugins: [
+    'delegated', {
+      name: 'avalon',
+      options: function (vm) {
+        vm.livelist = [];
+      }
+    }
+  ],
+	
+	bindActions: {
+    'goto.more': function () {
+    	//alert(1)
+      SPA.open('more');
+    }
+  },
+	
 
   bindEvents: {
     'show': function () {

@@ -18,14 +18,8 @@
           </div>-->
           <div class="content-top">
           	<ul>
-          		<li>
-          			<p><i class="iconfont">&#xe61a;</i></p><b>更多圈子</b><i>欢迎关注</i>
-          		</li>
-          		<li>
-          			<p><i class="iconfont">&#xe61a;</i></p><b>更多圈子</b><i>欢迎关注</i>
-          		</li>
-          		<li>
-          			<p><i class="iconfont">&#xe61a;</i></p><b>更多圈子</b><i>欢迎关注</i>
+          		<li class="kong">
+          			<p  action-type="goto.more"><i class="iconfont">&#xe61a;</i></p><b>更多圈子</b><i>欢迎关注</i>
           		</li>
           	</ul>
           </div>
@@ -35,7 +29,13 @@
           	</div>
           	<ul>
           		<li class="squre">
-          			<b><i></i><i><p>鹭岛民生</p><p>帖子:439379</p></i></b><span class="join">加入</span>
+          			<b><h1><img src="/smfish/images/comImg/4_03.jpg"/></h1><i><p>鹭岛民生</p><p>帖子:439379</p></i></b><span class="join">加入</span>
+          		</li>
+          		<li class="squre">
+          			<b><h1><img src="/smfish/images/comImg/4_06.jpg"/></h1><i><p>鱼鱼来爆料</p><p>帖子:58438</p></i></b><span class="join">加入</span>
+          		</li>
+          		<li class="squre">
+          			<b><h1><img src="/smfish/images/comImg/4_08.jpg"/></h1><i><p>买房俱乐部</p><p>帖子:1523</p></i></b><span class="join">加入</span>
           		</li>
           	</ul>
           </div>
@@ -46,22 +46,22 @@
           	<ul class="list">
           		<li class="fir-list">
           			<div class="userinfo">
-          				<i class="img"></i><span class="info"><b>爱威武爱威武爱威武爱威武</b><i>24小时前</i></span>
+          				<i class="img"><img src="/smfish/images/comImg/rr.jpg"/></i><span class="info"><b>上饶张建</b><i>2小时前</i></span>
           			</div>
-          			<div class="title">热帖广场热帖广场热帖广场热帖广场</div>
-          			<div class="detail">热帖广场热帖广场热帖广场热帖广场热帖广场热帖广场热帖广场热帖广场热帖广场热帖广场热帖广场热帖广场热帖广场热帖广场热广场热帖广场</div>
+          			<div class="title">离开厦门，就来泉州吧，城市在变化，房价适中</div>
+          			<div class="detail">泉州房价真心给力市区均价七千多，工资大概七千左右区域可以随便挑选</div>
           			<div class="pic">
-          				 <img src="/smfish/images/comImg/xiaoyu.jpg"/>
-          				 <img src="/smfish/images/comImg/xiaoyu.jpg"/>
-          				 <img src="/smfish/images/comImg/xiaoyu.jpg"/>
+          				 <img src="/smfish/images/comImg/22.jpg"/>
+          				 <img src="/smfish/images/comImg/33.jpg"/>
+          				 <img src="/smfish/images/comImg/44.jpg"/>
           			</div>
           			<div class="talk">
           				  <div class="talk_r">
           				  		<div class="eye">
-          				  			<i class="iconfont">&#xe617;</i><b>9000</b>
+          				  			<i class="iconfont">&#xe617;</i><b>6458</b>
           				  		</div>
           				  		<div class="msg">
-          				  			 <i class="iconfont">&#xe613;</i><b>300</b>
+          				  			 <i class="iconfont">&#xe613;</i><b>94</b>
           				  		</div>
           				  </div>
           				  <i class="iconfont">&#xe605;</i>
@@ -69,16 +69,53 @@
           			<div class="talklist">
           				 <ul>
           				 	<li>
-          				 		 <i>刘威武：</i><b>你真菜</b>
+          				 		 <i>LWPP：</i><b>去泉州能干什么？再没钱也买角美买房吧</b>
           				 	</li>
           				 	<li>
-          				 		 <i>闫磊：</i><b>我是大帅逼</b>
+          				 		 <i>tiggo：</i><b>还可以啊，城市小压力小吧</b>
           				 	</li>
           				 	<li>
-          				 		 <i>韩艳萍：</i><b>你在我心中是最美</b>
+          				 		 <i>夜幕下的聆听：</i><b>和厦门一个道理，或者全国都是一个道理</b>
           				 	</li>
           				 </ul>
-          				 <span>查看全部200条评论 ></span>
+          				 <span>查看全部94条评论 ></span>
+          			</div>
+          		</li>
+          		<li class="fir-list">
+          			<div class="userinfo">
+          				<i class="img"><img src="/smfish/images/comImg/23.jpg"/></i><span class="info"><b>大树叶</b><i>6小时前</i></span>
+          			</div>
+          			<div class="title">昨天科目二考试挂了，求教</div>
+          			<div class="detail"></div>
+          			<!--<div class="pic">
+          				 <img src="/smfish/images/comImg/xiaoyu.jpg"/>
+          				 <img src="/smfish/images/comImg/xiaoyu.jpg"/>
+          				 <img src="/smfish/images/comImg/xiaoyu.jpg"/>
+          			</div>-->
+          			<div class="talk">
+          				  <div class="talk_r">
+          				  		<div class="eye">
+          				  			<i class="iconfont">&#xe617;</i><b>1801</b>
+          				  		</div>
+          				  		<div class="msg">
+          				  			 <i class="iconfont">&#xe613;</i><b>86</b>
+          				  		</div>
+          				  </div>
+          				  <i class="iconfont">&#xe605;</i>
+          			</div>
+          			<div class="talklist">
+          				 <ul>
+          				 	<li>
+          				 		 <i>茶店：</i><b>学车的时候，也是左道库，有次和我一起考试的学员也是</b>
+          				 	</li>
+          				 	<li>
+          				 		 <i>我的蔚蓝天空：</i><b>你出库什么时候打方向，回来在哪个位置回方向</b>
+          				 	</li>
+          				 	<li>
+          				 		 <i>大树叶：</i><b>调查机会都没有，直接从库口附近斜着出来</b>
+          				 	</li>
+          				 </ul>
+          				 <span>查看全部86条评论 ></span>
           			</div>
           		</li>
           	</ul>
@@ -91,10 +128,12 @@
       </section>
     </div>
     <div class="swiper-slide">
-    	  <section class="myFirend">
-    	  	 <div class="unlogin"></div>
-    	  	 <p>你还没登录呢，赶紧登录吧</p> 
-    	  </section>
+    	  <section spa-widget="scroll">
+    	  	<div>
+    	  	 <div class="myFirend">
+    	  	 		<div class="unlogin"></div>
+    	  	 		<p>你还没登录呢，赶紧登录吧</p>
+    	  	 </div>
 					<ul class="daren">
 						<fieldset>
 							<legend>推荐达人</legend>
@@ -111,8 +150,22 @@
 					 	 		</div>
 					 	 		<i class="iconfont" style="color:#0ec5ff;">&#xe610;</i>
 					 	 </li>
-					</ul>		
-    </div>
+					 	 <li>
+					 	 		<div>
+					 	 				<i class="img"></i><span class="info"><b>宝贝橱柜</b><i>什么也没留下，这家伙...你懂得</i></span>
+					 	 		</div>
+					 	 		<i class="iconfont" style="color:#0ec5ff;">&#xe610;</i>
+					 	 </li>
+					 	 <li>
+					 	 		<div>
+					 	 				<i class="img"></i><span class="info"><b>宝贝橱柜</b><i>什么也没留下，这家伙...你懂得</i></span>
+					 	 		</div>
+					 	 		<i class="iconfont" style="color:#0ec5ff;">&#xe610;</i>
+					 	 </li>
+					</ul>
+					</div>
+				</section>
+    </div>  
   </div>
 </div>
 </div>

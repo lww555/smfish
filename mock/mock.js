@@ -5,6 +5,10 @@ module.exports = {
       respondwith: './home.json'
     },
     {
+      pattern: /\/api\/more\.php\?type=more\&pageNo=1/,
+      respondwith: './more.json'
+    },
+    {
       pattern: /\/api\/livelist\.php\?type=more\&pageNo=2/,
       respondwith: './livelist-more.json'
     },

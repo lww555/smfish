@@ -21,7 +21,9 @@ SPA.defineView("life",{
 				},
 				success:function(msg){
 					vm.navlist=msg.data.icons;
+					console.log(msg.data.icons)
 					vm.lifecontainer=msg.data.life;
+					console.log(msg.data.life)
 				}
 			})
 			$.ajax({
